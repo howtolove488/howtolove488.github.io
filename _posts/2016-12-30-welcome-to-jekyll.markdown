@@ -39,6 +39,7 @@ Nghĩa là: tham chiếu strong sở hữu đối tượng mà nó tham chiếu 
 - Khi tạo ra một tham chiếu "weak" đến một đối tượng, retainCount của đối tượng đó không tăng lên 1.
 - Khi release một tham chiếu "weak" đến một đối tượng, retainCount của đối tượng đó không bị giảm đi 1.
 weak được sử dụng chủ yếu trong kết nối IBOutlet và sử dụng để tránh trường hợp retain cycle
+<br/>
 <strong>16)  Liệt kê 5 trạng thái của 1 ứng dụng iOs</strong>
 
 Not running: Ứng dụng chưa được mở hoặc đang mở thì bị đóng bởi hệ thống.
@@ -46,6 +47,7 @@ Inactive: Ứng dụng đang chạy trên màn hình nhưng không nhận đư�
 Active: Đây là chế độ bình thường của ứng dụng, ứng dụng chạy trên mà hình và nhận được đầy đủ các thao tác của người dùng.
 Background: Ở trạng thái này, ứng dụng sẽ chạy ở dưới background, khi app đang chạy bình thường mà chúng ta ấn nút Home thì ứng dụng sẽ chuyển vào trạng thái này.
 Suspended: Ứng dụng nằm ở dưới background nhưng code sẽ không chạy.
+<br/>
 <strong>17)  Category là gì và cách sử dụng ?</strong>
 
 Để thêm một phương thức vào trong class mà không muốn mở rộng nó, chúng ta sử dụng Category. Categories là cách để chúng ta phân chia một lớp khởi tạo ra nhiều file khác nhau. Mục đích của việc này là để giảm bớt gánh nặng của việc duy trì các đoạn cơ sở code  lớn bằng việc modul hóa thành một lớp. Điều này giúp bạn tránh khỏi việc viết các tập tin với hơn 10000 dòng code mà không thể ứng dụng, di chuyển đến chỗ khác.
