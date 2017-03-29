@@ -32,3 +32,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+# Includes an icon in the footer for each user name you enter
+footer-links:
+  github: howtolove488
+  twitter: kaviet88  
