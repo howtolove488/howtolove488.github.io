@@ -15,10 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Techtalk | Xu hướng công nghệ
 email: viethoang.nghiem@gmail.com
-description: > Hello! I'm Peter Nghiem. I'm a self-taught full-stack developer with hopes to become a software engineer. 
- In my spare time, I make apps and coding tutorials.
- I've used technologies like ReactJS, React Native, NodeJS, 
- and plenty more to build my applications..
+description: > 
 baseurl: "https://howtolove488.github.com" # https://howtolove488.github.com 
 url: "http://sunaddons.com" # http://sunaddons.com
 twitter_username: kaviet88
