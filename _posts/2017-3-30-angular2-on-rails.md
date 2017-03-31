@@ -27,23 +27,24 @@ The first thing you would need is a working Rails app. If you already have an ex
 Let’s create a Rails app and call it ‘rails_ng2.’
 
 ```bash
-    $ rails new rails_ng2
-	$ cd rails_ng2
-    ```
+$ rails new rails_ng2
+$ cd rails_ng2
+```
 
 And let’s add a resource and call it ‘widget.’ The widget has three properties: name, description, and price.
 
 ```bash
-    $ rails g scaffold Widget name description price:float
-    ```
-![](https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/rails_g_scafold.png?resize=1024%2C864)
+$ rails g scaffold Widget name description price:float
+```
+
+![1](https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/rails_g_scafold.png?resize=1024%2C864)
 
 Let’s migrate the database.
 
 ```bash
-    $ rake db:migrate
-    ```
-![](https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/rake_db_migrate.png?resize=1024%2C109)
+$ rake db:migrate
+```
+![2](https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/rake_db_migrate.png?resize=1024%2C109)
 
 Run the rails development server
 ```bash
