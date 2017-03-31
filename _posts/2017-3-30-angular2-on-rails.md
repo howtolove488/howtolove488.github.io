@@ -20,7 +20,7 @@ Followings are the result I would like to achieve at the end of this article:
 * During development, you can use rails development server and angular development server. Rails server provides all the API calls, and Angular2 server helps you with the Angular2 app.
 * At deployment time, asset precompile will include your Angular 2 bundles so that Rails controller can serve the Angular2 app.
 
-#1. Create a Rails app.
+# 1. Create a Rails app.
 
 The first thing you would need is a working Rails app. If you already have an existing rails app, that’s great. But if you’d like to start from scratch, here’s how we start.
 
@@ -55,7 +55,7 @@ Then you already have a working Rails app! Point your browser to http://localhos
 
 ![3](https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/localhost4200Widgets.png?w=804)  
 
-#2. Add API endpoint
+# 2. Add API endpoint
 
 Now it’s time to build API endpoints for these widgets you’ve just created. It seems to be redundant to write another controller for the same behavior, but they serve two different audiences(human vs. machine) and purposes(rendering HTML and providing data). So it is always a good idea to create a separate endpoint for APIs.
 
@@ -123,7 +123,7 @@ end
 
 You can point your browser to http://localhost:3000/api/widgets and see JSON representation for your widget resources.
 
-#3. Add Angular2 App
+# 3. Add Angular2 App
 Now you have a working Rails app and API endpoint; it’s time to build an Angular2 app to consume the API.
 
 With Angular CLI, it becomes easy to create an angular2 app. If you don’t have Angular CLI, install it with npm.
@@ -142,7 +142,7 @@ ng2-app$ npm start
 Point your browser to http://localhost:4200 and you will see this.    
 ![4](https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/localhost4200.png?w=970)
 
-#4. Add components and routing to the Angular2 app
+# 4. Add components and routing to the Angular2 app
 
 Let’s create two components; home and widgets. With Angular CLI, it is one line task:
 ```bash
@@ -244,7 +244,7 @@ export class AppModule { }
  ```
 At this point, you should be able to run the Angular2 app on the separate development server, i.e., ng serve. You can click the navigation button and see it loads home and widgets components.
 
-#5. Add a Service
+# 5. Add a Service
 Now we have built two separate apps: Rails app and Angular2 app, but they are not connected anyhow. In this step, we will create a service that can consume API that we’ve just set up on Rails app.
 
 Angular CLI have service generator, but unlike the component generator, it creates files in the current directory. So we will have to create a directory and cd into the directory where we want the service modules to reside.
@@ -344,7 +344,7 @@ export class AppModule { }
 
 If you run your Angular2 app and load Widgets Component, you will see 404 error on the developer console. That is because we do not have anything on http://localhost:4200/api/widgets. Our backend server is running on http://localhost:3000/api/widgets. So we have to tell our Angular server to look at http://localhost:3000 when we make an API call.
 
-#6. Add dev server API proxy
+# 6. Add dev server API proxy
 
 In this step, we will tell Angular development server to look for localhost:3000 when we ask for something from /api/*.
 
@@ -369,7 +369,7 @@ Now, restart your Angular2 development server, you should see Widgets Component 
 
 Congratulations! You successfully wired Rails app and Angular2 app. You can do both frontend and backend development in one directory structure. Add more API endpoints; then you should be able to use them right away from your Angular2 app.
 
-#7. Add controller to serve the Angular2 app
+# 7. Add controller to serve the Angular2 app
 
 We’ve made a big progress, but we didn’t finish yet. Our ultimate goal is to have the Angular2 app available under our Rails app, not two separate servers: rails server running on port 3000, Angular server running on port 4200. Then we need to create a controller for our Angular2 app and router to call the controller.
 
@@ -418,7 +418,7 @@ Let’s open the application.html.erb and add one more line right before the clo
 ```
 Now you open up the browser, and load ‘http://localhost:3000/ng2-app’ then you will see ‘Loading…’ but nothing happens. And the browser console will spit out 404 error for all the javascript files we try to load. That’s because Rails cannot find the javascript files we included in <%= javascript_include_tag %> .
 
-#8. Let Rails know where to find Anuglar2 app
+# 8. Let Rails know where to find Anuglar2 app
 By default, Rails look for ‘app/assets/javascript’ and ‘lib/assets/javascript’, ‘vendor/assets/javascript’ directory to find the files we stated in <%= javascript_include_tag %> . But our Angular2 app does not reside on any of those directories. One solution would be copying Angular2 app files to one of standard search directories, but then we will have to copy files every time we build the Angular2 app and it’s too much work (I’m lazy). Instead, let’s teach Rails where to search.
 
 Open ‘config/application.rb’ and add the following line between the ‘class Application < Rails::Application’ and ‘end’:
@@ -455,7 +455,7 @@ Imagine six months later; your client wants to add another Single Page App under
 Instead of a directory location, we could have changed bundled file name with a suffix, e.g., ng2-app.main.bundle.js, ng2-app.inline.js, etc. But at the moment, there is no option to change bundled file name in Angular CLI configuration, so I decided to change its build target directory: ‘ng2-app/main.bundle.js’ instead of ‘ng2-app.main.bundle.js’.
 
 
-#9. Deploying to Heroku
+# 9. Deploying to Heroku
 
 This section is optional if you’d like to deploy your app to Heroku.
 
@@ -502,7 +502,7 @@ I usually let CI server handle all these steps, so once I set this process up, I
 
 Now your Rails+Angular2 app is in the world of the internet! If you see 404 error on the home page in this particular example, don’t panic. That’s because we didn’t create a home page; we didn’t create a controller nor routing for ‘/’. But you can visit ‘/widgets’ page and ‘ng2-app/’ page to enjoy your app working.
 
-#Conclusion
+# Conclusion
 
 We’ve looked at step by step process for building Rails Application and Angular2 app from scratch using own CLI tools. And we’ve learned the Angular2 development workflow using ‘ng serve’ and API proxy. And we have found how to integrate the Angualr2 app into Rails app by serving the assets via Rails routing, the controller, and the view. Finally, we deployed the app to Heroku for the worlds to enjoy.
 
