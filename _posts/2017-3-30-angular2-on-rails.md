@@ -476,7 +476,7 @@ Initialize your GIT repository. And commit the files.
 $ git init
 $ git add .
 $ git commit -m "initial commit"
-   ```
+```
 Now, create a Heroku server to deploy your app:  heroku create
 
 I don’t like to litter my master branch with precompiled assets in public directory. So I prefer to create a dist branch for deployment.
@@ -488,7 +488,7 @@ $ git co -b dist # create and switch to the dist branch
 (dist)$ git add --all
 (dist)$ git commit -m "initial deployment" # commit the change
 (dist)$ git push heroku dist:master # push dist branch to heroku's master
-	```
+```
 These are a lot of steps to remember. You will have to:
 
 1. create and switch to a dist branch
