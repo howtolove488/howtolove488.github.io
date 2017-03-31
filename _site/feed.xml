@@ -1,14 +1,674 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-30T14:14:25+07:00</updated><id>http://localhost:4000//</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</subtitle><entry><title type="html">20 câu hỏi tuyển dụng cơ bản cho Junior iOs Developer ( Phần 2)</title><link href="http://localhost:4000/jekyll/update/2016/12/30/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2016-12-30T14:02:57+07:00</published><updated>2016-12-30T14:02:57+07:00</updated><id>http://localhost:4000/jekyll/update/2016/12/30/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/12/30/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-03-30T15:16:39+07:00</updated><id>http://localhost:4000//</id><title type="html">Techtalk | Xu hướng công nghệ</title><subtitle>I'm a self-taught full-stack developer with hopes to become a software engineer.		 In my spare time, I make apps and coding tutorials.	 I've used technologies like ReactJS, React Native, NodeJS, and plenty more to build my applications.		
+</subtitle><entry><title type="html">Angular2 On Rails</title><link href="http://localhost:4000/2017/03/30/angular2-on-rails.html" rel="alternate" type="text/html" title="Angular2 On Rails" /><published>2017-03-30T00:00:00+07:00</published><updated>2017-03-30T00:00:00+07:00</updated><id>http://localhost:4000/2017/03/30/angular2-on-rails</id><content type="html" xml:base="http://localhost:4000/2017/03/30/angular2-on-rails.html">&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/trees-railroads-railroad-e1485229908918.jpg?fit=1024%2C617&quot; alt=&quot;How to have Angular2 and Rails coexist peacefully on your laptop and servers&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;How to have Angular2 and Rails coexist peacefully on your laptop and servers&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;Most of the front-end tutorials assume that your JS application runs on a separate server to the backend application and the front-end code has different codebase. It makes sense when you have independent teams to develop the front-end and the backend. But if you work in a small team of full stack developers, having separate codebase becomes an overhead.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;One option of integrating the Angular app with Rails would be putting all javascript code within Rails directory structure, i.e., ‘app/assets/javascript.’&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;However, this option only makes sense when you have a little JavaScript code, and you want Rails asset pipeline to concatenate all your javascript codes. So most of the case, this would not be the solution because:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;TypeScript is the language choice of Anguar2. And Rails’ asset pipeline does not know how to handle typescript. You don’t have to write Angular2 app in TypeScript, but you don’t want to give up the option just because the environment you chose.&lt;/li&gt;
+  &lt;li&gt;And the Angualar2 app may want to be treated as the first class app. Angular2 app will play vital importance in your whole application. Placing that critical code somewhere deep inside the closet, ‘app/assets/javascript/ng2-app/…’ doesn’t seem to be very nice.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In this article, I would like to show how to configure Rails and Angular2, so that Rails app and the Angular2 app can coexist within one repository.&lt;/p&gt;
+
+&lt;p&gt;Followings are the result I would like to achieve at the end of this article:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Your Angular2 app’s source code live in an independent directory structure, e.g. ‘RAILS_ROOT/ng2-app’&lt;/li&gt;
+  &lt;li&gt;Your Angular2 Service can use relative path for API calls because they will live on the same server. No need for CORS configuration.&lt;/li&gt;
+  &lt;li&gt;During development, you can use rails development server and angular development server. Rails server provides all the API calls, and Angular2 server helps you with the Angular2 app.&lt;/li&gt;
+  &lt;li&gt;At deployment time, asset precompile will include your Angular 2 bundles so that Rails controller can serve the Angular2 app.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;#1. Create a Rails app.&lt;/p&gt;
+
+&lt;p&gt;The first thing you would need is a working Rails app. If you already have an existing rails app, that’s great. But if you’d like to start from scratch, here’s how we start.&lt;/p&gt;
+
+&lt;p&gt;Let’s create a Rails app and call it ‘rails_ng2.’&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rails new rails_ng2
+	&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;rails_ng2
+    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+
+And &lt;span class=&quot;nb&quot;&gt;let&lt;/span&gt;’s add a resource and call it ‘widget.’ The widget has three properties: name, description, and price.
+
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
+    &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rails g scaffold Widget name description price:float
+    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+![]&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/rails_g_scafold.png?resize&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1024%2C864&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+Let’s migrate the database.
+
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
+    &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rake db:migrate
+    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+![]&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/rake_db_migrate.png?resize&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1024%2C109&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+Run the rails development server
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
+    &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rails s
+    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+
+Then you already have a working Rails app! Point your browser to http://localhost:3000/widgets; &lt;span class=&quot;k&quot;&gt;then &lt;/span&gt;you should be able to view and create some widgets.
+
+![]&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/localhost4200Widgets.png?w&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;804&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;  
+
+&lt;span class=&quot;c&quot;&gt;#2. Add API endpoint&lt;/span&gt;
+
+Now it’s &lt;span class=&quot;nb&quot;&gt;time &lt;/span&gt;to build API endpoints &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;these widgets you’ve just created. It seems to be redundant to write another controller &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;the same behavior, but they serve two different audiences&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;human vs. machine&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; and purposes&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rendering HTML and providing data&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;. So it is always a good idea to create a separate endpoint &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;APIs.
+
+With Rails, it is always easy to create another controller:
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
+    &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rails g controller api/widgets
+    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+And edit widgets controller file.
+
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
+class Api::WidgetsController &amp;lt; ApplicationController
+  before_action :set_widget, only: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;:show, :update, :destroy]
+  respond_to :json
+
+  def index
+    @widgets &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; Widget.all
+    render json: @widgets
+  end
+
+  def show
+    render json: @widget
+  end
+
+  def create
+    @widget &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; Widget.new&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;widget_params&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; @widget.save
+      render json: @widget
+    &lt;span class=&quot;k&quot;&gt;else
+      &lt;/span&gt;render json: @widget.errors, status: :unprocessable_entity
+    end
+  end
+
+  def update
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; @widget.update&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;widget_params&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+      render json: @widget
+    &lt;span class=&quot;k&quot;&gt;else
+      &lt;/span&gt;render json: @widget.errors, status: :unprocessable_entity
+    end
+  end
+
+  def destroy
+    @widget.destroy
+    head :no_content
+  end
+
+  private
+  &lt;span class=&quot;c&quot;&gt;# Use callbacks to share common setup or constraints between actions.&lt;/span&gt;
+  def set_widget
+    @widget &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; Widget.find&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;params[:id]&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  end
+
+  &lt;span class=&quot;c&quot;&gt;# Never trust parameters from the scary internet, only allow the white list through.&lt;/span&gt;
+  def widget_params
+    params.require&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;:widget&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;.permit&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;:name, :description, :price&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  end
+end
+    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;   
+
+Add the controller to the route configuration.    
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
+namespace :api &lt;span class=&quot;k&quot;&gt;do
+  &lt;/span&gt;resources :widgets
+end
+    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;  
+
+You can point your browser to http://localhost:3000/api/widgets and see JSON representation &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;your widget resources.
+
+&lt;span class=&quot;c&quot;&gt;#3. Add Angular2 App&lt;/span&gt;
+Now you have a working Rails app and API endpoint; it’s &lt;span class=&quot;nb&quot;&gt;time &lt;/span&gt;to build an Angular2 app to consume the API.
+
+With Angular CLI, it becomes easy to create an angular2 app. If you don’t have Angular CLI, install it with npm.
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;npm install -g angular-cli
+    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt; 
+And create an Angular2 app:
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;ng new ng2-app
+    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt; 
+This &lt;span class=&quot;nb&quot;&gt;command &lt;/span&gt;will create an Angular2 app under ‘ng-app’ directory.
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ng2-app
+&lt;span class=&quot;gp&quot;&gt;ng2-app$ &lt;/span&gt;npm start
+    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt; 
+Point your browser to http://localhost:4200 and you will see this.    
+![]&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/localhost4200.png?w&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;970&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;#4. Add components and routing to the Angular2 app&lt;/span&gt;
+
+Let’s create two components; home and widgets. With Angular CLI, it is one line task:
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
+&lt;span class=&quot;gp&quot;&gt;ng2-app$ &lt;/span&gt;ng g component widgets
+ create src/app/widgets/widgets.component.css
+ create src/app/widgets/widgets.component.html
+ create src/app/widgets/widgets.component.spec.ts
+ create src/app/widgets/widgets.component.ts
+&lt;span class=&quot;gp&quot;&gt;ng2-app$ &lt;/span&gt;ng g component home
+ create src/app/home/home.component.css
+ create src/app/home/home.component.html
+ create src/app/home/home.component.spec.ts
+ create src/app/home/home.component.ts
+     &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt; 
+Let’s add a router to load one of these components based on your URL.
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; NgModule &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'@angular/core'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; Routes, RouterModule &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'@angular/router'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; WidgetsComponent &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'./widgets/widgets.component'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; HomeComponent &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'./home/home.component'&lt;/span&gt;;
+ 
+const routes: Routes &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;path: &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;, component: HomeComponent&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;,
+  &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;path: &lt;span class=&quot;s1&quot;&gt;'widgets'&lt;/span&gt;, component: WidgetsComponent &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;,
+  &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;path: &lt;span class=&quot;s1&quot;&gt;'*'&lt;/span&gt;, redirectTo: &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;;
+ 
+@NgModule&lt;span class=&quot;o&quot;&gt;({&lt;/span&gt;
+  imports: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;RouterModule.forRoot&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;routes&lt;span class=&quot;o&quot;&gt;)]&lt;/span&gt;,
+  exports: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;RouterModule],
+  providers: &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;})&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;class Ng2RestAppRoutingModule &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;     
+     &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+This routing configuration will have our app to load Widgets Component when we point the browser URL to ‘/widgets’ or Home Component otherwise.
+
+And we will have to tell where to load these components. Add &amp;lt;router-outlet&amp;gt;&amp;lt;/router-outlet&amp;gt;  at the end of ‘ng-app/src/app/app.component.html‘
+
+And &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;our convenience, &lt;span class=&quot;nb&quot;&gt;let&lt;/span&gt;’s add a navigation menu to app component template.
+
+-app/src/app/app.component.htmlXHTML
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
+&lt;span class=&quot;gp&quot;&gt;&amp;lt;h1&amp;gt;  &lt;/span&gt;&amp;lt;/h1&amp;gt;
+
+&amp;lt;nav &lt;span class=&quot;nv&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;mdl-navigation&quot;&lt;/span&gt;&amp;gt;
+  &amp;lt;a &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;routerLink]&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;links.home&quot;&lt;/span&gt;&amp;gt;Home&amp;lt;/a&amp;gt;
+  &amp;lt;a &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;routerLink]&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;links.widgets&amp;gt;Widgets&amp;lt;/a&amp;gt;
+&amp;lt;/nav&amp;gt;
+
+&amp;lt;router-outlet&amp;gt;&amp;lt;/router-outlet&amp;gt;     
+     &lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+And &lt;span class=&quot;nb&quot;&gt;let&lt;/span&gt;’s add it to the component class.
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'app works!';
+  links = {
+    home: ['/'],
+    widgets: ['/widgets']
+  };
+}     
+     &lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+
+Now we will have to wire all these modules &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;app.module.ts
+
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+import { Ng2RestAppRoutingModule } from './app-routing.module';
+
+import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { WidgetsComponent } from './widgets/widgets.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    WidgetsComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    Ng2RestAppRoutingModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }     
+     &lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+At this point, you should be able to run the Angular2 app on the separate development server, i.e., ng serve. You can click the navigation button and see it loads home and widgets components.
+
+&lt;span class=&quot;c&quot;&gt;#5. Add a Service&lt;/span&gt;
+Now we have built two separate apps: Rails app and Angular2 app, but they are not connected anyhow. In this step, we will create a service that can consume API that we’ve just &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;up on Rails app.
+
+Angular CLI have service generator, but unlike the component generator, it creates files &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;the current directory. So we will have to create a directory and &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;into the directory where we want the service modules to reside.
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash
+ng2-app/src/app&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;mkdir shared
+ng2-app/src/app&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;cd shared
+ng2-app/src/app/shared&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;ng g service widgets
+ create src/app/shared/widgets.service.spec.ts
+ create src/app/shared/widgets.service.ts     
+     &lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+
+Let’s edit widgets service:
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash
+import { Injectable } from '@angular/core';
+import { Http, Response } from '@angular/http';
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/operator/map';
+
+@Injectable()
+  export class WidgetsService {
+  private url = 'api/widgets';
+
+  constructor (private http: Http) {}
+
+  getWidgets() {
+    return this.http.get(this.url)
+      .map(res=&amp;gt; res.json())
+  }
+}      
+     &lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+Note that we didn’t add ‘http://localhost:3000’ suffix to the URL. We treat the API URL as &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;they are from the same origin.
+
+Let’s use this service on our widgets component:
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash
+import { Component, OnInit } from '@angular/core';
+import { WidgetsService } from '../shared/widgets.service'
+
+@Component({
+  selector: 'app-widgets',
+  templateUrl: './widgets.component.html',
+  styleUrls: ['./widgets.component.css']
+})
+export class WidgetsComponent implements OnInit {
+  constructor (private widgetsService: WidgetsService) {}
+  widgets = []
+
+  ngOnInit() {
+    this.widgetsService.getWidgets().
+    subscribe(widgets =&amp;gt; this.widgets = widgets)
+  }
+}     
+     &lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+And update the template to display widgets object:
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash
+&amp;lt;p&amp;gt;
+  widgets works!
+&amp;lt;/p&amp;gt;
+
+&amp;lt;pre&amp;gt;
+  
+&amp;lt;/pre&amp;gt;     
+     &lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+And add the service module to the app modules.
+
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+import { Ng2RestAppRoutingModule } from './app-routing.module';
+
+import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { WidgetsComponent } from './widgets/widgets.component';
+
+import { WidgetsService } from './shared/widgets.service';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    WidgetsComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    Ng2RestAppRoutingModule
+  ],
+  providers: [
+    WidgetsService
+  ],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+	&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+
+If you run your Angular2 app and load Widgets Component, you will see 404 error on the developer console. That is because we &lt;span class=&quot;k&quot;&gt;do &lt;/span&gt;not have anything on http://localhost:4200/api/widgets. Our backend server is running on http://localhost:3000/api/widgets. So we have to tell our Angular server to look at http://localhost:3000 when we make an API call.
+
+&lt;span class=&quot;c&quot;&gt;#6. Add dev server API proxy&lt;/span&gt;
+
+In this step, we will tell Angular development server to look &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;localhost:3000 when we ask &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;something from /api/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.
+
+First, you will have to create a proxy configuration file.
+
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash
+{
+  &quot;&lt;/span&gt;/api&lt;span class=&quot;s2&quot;&gt;&quot;: {
+    &quot;&lt;/span&gt;target&lt;span class=&quot;s2&quot;&gt;&quot;: &quot;&lt;/span&gt;http://localhost:3000&lt;span class=&quot;s2&quot;&gt;&quot;,
+    &quot;&lt;/span&gt;secure&lt;span class=&quot;s2&quot;&gt;&quot;: false
+  }
+}
+	&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+This configuration tells that when you see ‘/api’ prefix &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;your URL, forward the message to ‘http://localhost:3000’.
+
+And &lt;span class=&quot;nb&quot;&gt;let&lt;/span&gt;’s have our development server to use this proxy configuration. Open “package.json” file and replace start script with following:
+
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash		
+&quot;&lt;/span&gt;start&lt;span class=&quot;s2&quot;&gt;&quot;: &quot;&lt;/span&gt;ng serve --proxy-config proxy.config.json&lt;span class=&quot;s2&quot;&gt;&quot;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Now, restart your Angular2 development server, you should see Widgets Component load all the widgets in JSON format!&lt;/p&gt;
+
+&lt;p&gt;Congratulations! You successfully wired Rails app and Angular2 app. You can do both frontend and backend development in one directory structure. Add more API endpoints; then you should be able to use them right away from your Angular2 app.&lt;/p&gt;
+
+&lt;p&gt;#7. Add controller to serve the Angular2 app&lt;/p&gt;
+
+&lt;p&gt;We’ve made a big progress, but we didn’t finish yet. Our ultimate goal is to have the Angular2 app available under our Rails app, not two separate servers: rails server running on port 3000, Angular server running on port 4200. Then we need to create a controller for our Angular2 app and router to call the controller.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;rails g controller ng2_app
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Let’s add the route to the configuration.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;get &lt;span class=&quot;s2&quot;&gt;&quot;ng2-app&quot;&lt;/span&gt;,       controller: &lt;span class=&quot;s2&quot;&gt;&quot;ng2_app&quot;&lt;/span&gt;, action: &lt;span class=&quot;s2&quot;&gt;&quot;index&quot;&lt;/span&gt;
+get &lt;span class=&quot;s2&quot;&gt;&quot;ng2-app/*path&quot;&lt;/span&gt;, controller: &lt;span class=&quot;s2&quot;&gt;&quot;ng2_app&quot;&lt;/span&gt;, action: &lt;span class=&quot;s2&quot;&gt;&quot;index&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;These two lines will let Rails to call index method on the Ng2AppController we’ve just created. We need to have these two lines so that Rails can ignore additional paths after ‘localhost:3000/ng2-app/, but Angular2 app will read path and decide its actions.&lt;/p&gt;
+
+&lt;p&gt;For example, if we enter ‘http://domain-name.com/ng2-app’, Rails will call index method of Ng2AppController. And then our Angular2 app’s routing system will decide to load Home Component.
+But if we enter ‘http://domain-name.com/ng2-app/widgets’, Rails will ignore the last part: ‘widgets’ and still call index method of Ng2AppController. And the Anguar2 app’s routing will read the last part of the URL and load Widgets Component.&lt;/p&gt;
+
+&lt;p&gt;Since we don’t have any method defined in NgAppController, let’s add the method.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Ng2AppController &amp;lt; ApplicationController
+  def index
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;And we need the view for this action.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;&amp;lt;% &lt;/span&gt;content_for :head &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; %&amp;gt;
+&amp;lt;base &lt;span class=&quot;nv&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/ng2-app&quot;&lt;/span&gt;&amp;gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;lt;% &lt;/span&gt;end %&amp;gt;
+
+&amp;lt;app-root&amp;gt;Loading...&amp;lt;/app-root&amp;gt;
+
+&amp;lt;%&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; javascript_include_tag &lt;span class=&quot;s2&quot;&gt;&quot;ng2-app/inline&quot;&lt;/span&gt; %&amp;gt;
+&amp;lt;%&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; javascript_include_tag &lt;span class=&quot;s2&quot;&gt;&quot;ng2-app/styles.bundle&quot;&lt;/span&gt; %&amp;gt;
+&amp;lt;%&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; javascript_include_tag &lt;span class=&quot;s2&quot;&gt;&quot;ng2-app/main.bundle&quot;&lt;/span&gt; %&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;A few things are going on in this file:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&amp;lt;base href=”/ng2-app”&amp;gt; tells the Angular2 app to ignore first ‘/ng2-app’ from the path. For example, if the URL of the browser is pointing to ‘http://domain-name.com/ng2-app/‘, Anguar2 will only look at ‘/‘ and load Home Component. And if it sees ‘http://domain-nam.com/ng2-app/widgets‘, it will recognize ‘/widgets‘ and serve Widgets Component.&lt;/li&gt;
+  &lt;li&gt;We must put this &lt;base /&gt; tag within &amp;lt;head&amp;gt; tag, so we are wrapping &lt;base /&gt; tag between &lt;coneten_for :head=&quot;&quot;&gt;. We are going to add another yield  statement in the layout file later.&lt;/coneten_for&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;app-root&gt;Loading...&lt;/app-root&gt;
+    &lt;p&gt;is where the Angular2 app will live.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;When you build the Angular2 app with ‘ng build,’ it will generate three files: ‘inline.js’, ‘styles.bundle.js’ and ‘main.bundle.js’ into ‘ng2-app/dist/’ directory. So we are loading these three files into our view template. Note that ‘ng2-app/’ prefix of the javascript filenames are not necessary. However, if you are planning to add more than one Anguar2 app under the same project, it is better to add the subdirectory.
+Let’s open the application.html.erb and add one more line right before the closing tag of &amp;lt;/head&amp;gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;%&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; yield :head %&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+    &lt;p&gt;Now you open up the browser, and load ‘http://localhost:3000/ng2-app’ then you will see ‘Loading…’ but nothing happens. And the browser console will spit out 404 error for all the javascript files we try to load. That’s because Rails cannot find the javascript files we included in &amp;lt;%= javascript_include_tag %&amp;gt; .&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;#8. Let Rails know where to find Anuglar2 app
+By default, Rails look for ‘app/assets/javascript’ and ‘lib/assets/javascript’, ‘vendor/assets/javascript’ directory to find the files we stated in &amp;lt;%= javascript_include_tag %&amp;gt; . But our Angular2 app does not reside on any of those directories. One solution would be copying Angular2 app files to one of standard search directories, but then we will have to copy files every time we build the Angular2 app and it’s too much work (I’m lazy). Instead, let’s teach Rails where to search.&lt;/p&gt;
+
+&lt;p&gt;Open ‘config/application.rb’ and add the following line between the ‘class Application &amp;lt; Rails::Application’ and ‘end’:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;config.assets.paths &lt;span class=&quot;sh&quot;&gt;&amp;lt;&amp;lt; Rails.root.join(&quot;ng2-app&quot;, &quot;dist&quot;)
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;This one line will tell Rails to look ‘RAILS_ROOT/ng2-app/dist/’ directory in addition to the Rails default asset paths for JavaScript files. So Rails will turn &amp;lt;%= javascript_include_tag “ng2-app/inline” %&amp;gt;  into &lt;script src=&quot;ng2-app/dist/ng2-app/inline.js&quot;&gt;  for development environment.&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;But in the production environment, Rails will look for ‘/public/assets/ng-app/inline.[MD5-hash].js’. You will also have to tell Rails to include these file for precompilation. In order for that add the following line in “config/initializers/assets.rb”&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Rails.application.config.assets.precompile +&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
+  %w&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt; ng2-app/inline.js ng2-app/styles.bundle.js ng2-app/main.bundle.js&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;The last step is to tell Angular2 to place bundle files into ‘dist/ng2-app/’ instead of ‘dist/.’ Open ‘ng2-app/angular-cli.json’. And change apps[“outDir”]  value to dist/ng2-app.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  ...
+  &lt;span class=&quot;s2&quot;&gt;&quot;apps&quot;&lt;/span&gt;: &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    ...
+    &lt;span class=&quot;s2&quot;&gt;&quot;outDir&quot;&lt;/span&gt;: &lt;span class=&quot;s1&quot;&gt;'dist/ng2-app'&lt;/span&gt;
+    ...
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Rebuild your Angular2 app with ng build  and restart Rails server with  rails s ; then you should be able to see your Angular2 app working on ‘http://localhost:3000/ng2-app’.&lt;/p&gt;
+
+&lt;p&gt;You may wonder why we bother to place our Angular2 app bundle files on ‘dist/ng2-app’ instead of the default ‘dist/’ directory. There are two reasons for that: self-documentation and future-proof.
+Have left all the bundle files under ‘dist/’ directory, we could include the javascript files in our Rails view file like this: &amp;lt;%= javascript_include_tag ‘main.bundle’ %&amp;gt;  or &amp;lt;%= javascript_include_tag ‘inline’ %&amp;gt; . But then, two months later, you come back to this code and might have forgotten what the ‘min.bundle’ or ‘inline’ are. It would be easier to remember to if you write ‘ng2-app/main.bundle’ or ‘ng2-app/inline’.&lt;/p&gt;
+
+&lt;p&gt;Imagine six months later; your client wants to add another Single Page App under the same Rails app. That’s easy. You create ‘another-app’ directory on the RAILS_ROOT directory for another Angular2 app. And add config.assets.paths « Rails.root.join(“another-app”, “dist”)  to your application.rb file. And your view file, you include the javascript bundles: &amp;lt;%= javascript_include_tag ‘main.bundle’ %&amp;gt; . Now you see the problem? Rails will include the JavaScript files from ‘ng-app/dist/’ directory, not from ‘another-app/dist/’ directory, because it will find main.bundle.js file from ‘ng-app/dist’ directory first.&lt;/p&gt;
+
+&lt;p&gt;Instead of a directory location, we could have changed bundled file name with a suffix, e.g., ng2-app.main.bundle.js, ng2-app.inline.js, etc. But at the moment, there is no option to change bundled file name in Angular CLI configuration, so I decided to change its build target directory: ‘ng2-app/main.bundle.js’ instead of ‘ng2-app.main.bundle.js’.&lt;/p&gt;
+
+&lt;p&gt;#9. Deploying to Heroku&lt;/p&gt;
+
+&lt;p&gt;This section is optional if you’d like to deploy your app to Heroku.&lt;/p&gt;
+
+&lt;p&gt;The small disadvantage of this approach is that you can’t have Heroku handle its asset precompilation process. Before precompilation assets, you will have to run ng build on your Angular2 app. That means you will have to push precompiled assets to Heroku.&lt;/p&gt;
+
+&lt;p&gt;At a minimum, you will need pg  and rails_12factor  gem for Heroku deployment. Add these two gems in your Gemfile.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;group :production &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;# Heroku recommended gem&lt;/span&gt;
+  gem &lt;span class=&quot;s1&quot;&gt;'pg'&lt;/span&gt;
+  gem &lt;span class=&quot;s1&quot;&gt;'rails_12factor'&lt;/span&gt;
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;And install gems: bundle install&lt;/p&gt;
+
+&lt;p&gt;Initialize your GIT repository. And commit the files.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git init
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git add .
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git commit -m &lt;span class=&quot;s2&quot;&gt;&quot;initial commit&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Now, create a Heroku server to deploy your app:  heroku create&lt;/p&gt;
+
+&lt;p&gt;I don’t like to litter my master branch with precompiled assets in public directory. So I prefer to create a dist branch for deployment.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;bash
+$ git co -b dist # create and switch to the dist branch
+(dist)$ rake assets:clobber # remove old assets
+(dist)$ (cd ng2-app; ng build) # build Angular2 app
+(dist)$ RAILS_ENV=production rake assets:precompile # precompile assets
+(dist)$ git add --all
+(dist)$ git commit -m &quot;initial deployment&quot; # commit the change
+(dist)$ git push heroku dist:master # push dist branch to heroku's master
+	&lt;/code&gt;
+These are a lot of steps to remember. You will have to:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;create and switch to a dist branch&lt;/li&gt;
+  &lt;li&gt;remove all old assets&lt;/li&gt;
+  &lt;li&gt;build the Anuglar2 app&lt;/li&gt;
+  &lt;li&gt;precompile assets&lt;/li&gt;
+  &lt;li&gt;commit the changes&lt;/li&gt;
+  &lt;li&gt;and push the changes to Heroku.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I usually let CI server handle all these steps, so once I set this process up, I do not have to remember.&lt;/p&gt;
+
+&lt;p&gt;Now your Rails+Angular2 app is in the world of the internet! If you see 404 error on the home page in this particular example, don’t panic. That’s because we didn’t create a home page; we didn’t create a controller nor routing for ‘/’. But you can visit ‘/widgets’ page and ‘ng2-app/’ page to enjoy your app working.&lt;/p&gt;
+
+&lt;p&gt;#Conclusion&lt;/p&gt;
+
+&lt;p&gt;We’ve looked at step by step process for building Rails Application and Angular2 app from scratch using own CLI tools. And we’ve learned the Angular2 development workflow using ‘ng serve’ and API proxy. And we have found how to integrate the Angualr2 app into Rails app by serving the assets via Rails routing, the controller, and the view. Finally, we deployed the app to Heroku for the worlds to enjoy.&lt;/p&gt;
+
+&lt;p&gt;The main advantage of the described process is the loose coupling of Rails and Angular2 apps, which ensure future-proof. If your team expands and you’d want to create separate repositories for Rails and Anguar2 app, you only need to move ng2-app directory out of root directory and couple lines of configurations. And if you’d like to add more Angular2 apps under the same umbrella, you can do that by typing ‘ng new another-app’.&lt;/p&gt;
+
+&lt;p&gt;Although I used Angular2 in this example, the same process can be applied to any JavaScript Single Page App using bundlers like webpack or jspm or build tools like Grunt.&lt;/p&gt;
+
+&lt;p&gt;You can download entire code at github and view the working app here.&lt;/p&gt;</content><summary type="html"></summary></entry><entry><title type="html">Developer Roadmap</title><link href="http://localhost:4000/2017/03/29/developer-roadmap.html" rel="alternate" type="text/html" title="Developer Roadmap" /><published>2017-03-29T00:00:00+07:00</published><updated>2017-03-29T00:00:00+07:00</updated><id>http://localhost:4000/2017/03/29/developer-roadmap</id><content type="html" xml:base="http://localhost:4000/2017/03/29/developer-roadmap.html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/GyvcunJ.png&quot; alt=&quot;Web Developer Roadmap&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Roadmap to becoming a web developer in 2017&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Below you find a set of charts demonstrating the paths that you can take and the technologies that you would want to adopt in order to become a frontend, backend or a devops. I made these charts for an old professor of mine who wanted something to share with his college students to give them a perspective.&lt;/p&gt;
+
+&lt;p&gt;If you think that these can be improved in anyway, please do suggest.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;b&gt; Want to learn something new?&lt;/b&gt;&lt;br /&gt;Visit &lt;a href=&quot;http://hugobots.com&quot;&gt;Hugobots&lt;/a&gt; where I teach people&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-introduction&quot;&gt;🚀 Introduction&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/qBlT67N.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;-front-end-roadmap&quot;&gt;🎨 Front-end Roadmap&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/A7Ms6cn.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;-back-end-roadmap&quot;&gt;👽 Back-end Roadmap&lt;/h2&gt;
+
+&lt;p&gt;For the backend, personally I would prefer Node.js and PHP 7 for the full time plus I have been experimenting lately with Go and I quite like it. Apart from these, if I have to choose another one, I would go for Ruby. However this is just my personal preference, you can choose any of the shown languages and you will be good.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/m9V8ZiV.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;-devops-roadmap&quot;&gt;👷 DevOps Roadmap&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/4yJ9r79.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;-wrap-up&quot;&gt;🚦 Wrap Up&lt;/h2&gt;
+
+&lt;p&gt;If you think any of the roadmaps can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to watch/star this repository to revisit.&lt;/p&gt;
+
+&lt;h2 id=&quot;-todo&quot;&gt;☑ TODO&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[X] Add Frontend Roadmap&lt;/li&gt;
+  &lt;li&gt;[X] Add Backend Roadmap&lt;/li&gt;
+  &lt;li&gt;[X] Add DevOps Roadmap&lt;/li&gt;
+  &lt;li&gt;[ ] Add relevant resources for each&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;-contribution&quot;&gt;👬 Contribution&lt;/h2&gt;
+
+&lt;p&gt;The roadmaps are built using &lt;a href=&quot;https://balsamiq.com/products/mockups/&quot;&gt;Balsamiq&lt;/a&gt;. Project file can be found at &lt;code class=&quot;highlighter-rouge&quot;&gt;/project-files&lt;/code&gt; directory. To modify any of the roadmaps, open Balsamiq, click &lt;strong&gt;Project &amp;gt; Import &amp;gt; Mockup JSON&lt;/strong&gt;, it will open the roadmap for you, update it, upload and update the images in readme and create a PR.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Open pull request with improvements&lt;/li&gt;
+  &lt;li&gt;Discuss ideas in issues&lt;/li&gt;
+  &lt;li&gt;Spread the word&lt;/li&gt;
+  &lt;li&gt;Reach out to me directly at kamranahmed.se@gmail.com or on Twitter &lt;a href=&quot;http://twitter.com/kamranahmedse&quot;&gt;@kamranahmedse&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sponsored-by&quot;&gt;Sponsored By&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://fancygrid.com&quot;&gt;FancyGrid - JavaScript grid library with charts integration and server communication.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;«««&amp;lt; HEAD
+&lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg&quot; alt=&quot;License: CC BY 4.0&quot; /&gt;&lt;/a&gt;
+=======
+&lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg&quot; alt=&quot;License: CC BY 4.0&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;blockquote&gt;
+      &lt;blockquote&gt;
+        &lt;blockquote&gt;
+          &lt;blockquote&gt;
+            &lt;blockquote&gt;
+              &lt;p&gt;897c86a7c0aeda6f1b56cd922ba32ae240447093&lt;/p&gt;
+            &lt;/blockquote&gt;
+          &lt;/blockquote&gt;
+        &lt;/blockquote&gt;
+      &lt;/blockquote&gt;
+    &lt;/blockquote&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;</content><summary type="html"></summary></entry><entry><title type="html">20 câu hỏi tuyển dụng cơ bản cho Junior iOs Developer ( Phần 2)</title><link href="http://localhost:4000/jekyll/update/2016/12/30/welcome-to-jekyll.html" rel="alternate" type="text/html" title="20 câu hỏi tuyển dụng cơ bản cho Junior iOs Developer ( Phần 2)" /><published>2016-12-30T14:02:57+07:00</published><updated>2016-12-30T14:02:57+07:00</updated><id>http://localhost:4000/jekyll/update/2016/12/30/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/12/30/welcome-to-jekyll.html">&lt;p&gt;Tiếp theo phần 1, hôm nay chúng ta sẽ cùng nhau đi tiếp 10 câu hỏi còn lại trong bộ sưu tập những câu hỏi tuyển dụng cơ bản dành cho lập trình viên iOS mới ra trường và còn ít kinh nghiệm:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;11 ) Phân biệt giữa frame và bounds  &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Frame là tọa độ và kích thước của view trong View cha của nó&lt;/p&gt;
+
+&lt;p&gt;Bounds là tọa độ và kích thước của view trong hệ tọa độ của chính nó&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;12 )  Mục đích sử dụng của khái niệm “reuseIdentifier” ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Dùng để tái sử dụng một đối tượng đã được khởi tạo và cấp phát trước đó. Ví dụ: tableView.dequeuereuseablecellwithIdentifier&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;13 ) Có bao nhiêu Cell được khởi tạo khi lần đầu tiên bạn load một UITableView? Mỗi khi scroll màn hình thì có bao nhiêu Cell được thêm vào?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;UITableView sẽ khởi tạo một số lượng object Cell vừa đủ để hiển thị trên màn hình của thiết bị. Và với cơ chế reuseIdentifier, UITableView sẽ không tạo thêm Cell nào cả, mà sẽ tái sử dụng các đối tượng sẵn có để tránh tình trạng giật, lag máy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;14 )  Định nghĩa atomic và nonatomic.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Khi bạn có nhiều hơn một thread (luồng), nó có thể cho các setter và getter được gọi cùng một lúc. Điều này có nghĩa rằng getter / setter có thể bị gián đoạn bởi hoạt động khác, có thể dẫn đến dữ liệu bị hỏng.&lt;/p&gt;
+
+&lt;p&gt;Thuộc tính Atomic sẽ ngăn chặn điều này xảy ra, đảm bảo rằng các hoạt động được, hoặc thiết lập đang làm việc với một giá trị đầy đủ. Tuy nhiên, điều quan trọng là phải hiểu rằng đây chỉ là một khía cạnh của thread-safe-using (luồng an thoàn) và thuộc tính Atomic không đảm bảo là mã của bạn là thread-safe.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;15)  Sự khác nhau giữa weak và strong ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Strong pointer là một con trỏ, trỏ đến một đối tượng và sở hữu (own) đối tượng đó. 
+Weak pointer là một con trỏ, trỏ đến một đối tượng nhưng không sở hữu (own) đối tượng đó.&lt;/p&gt;
+
+&lt;p&gt;Khi tạo ra một reference strong đến một đối tượng, retainCount của đối tượng đó tăng lên 1&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Khi release một tham chiếu strong đến một đối tượng, retainCount của đối tượng giảm đi 1
+Nghĩa là: tham chiếu strong sở hữu đối tượng mà nó tham chiếu đến, nó quyết định đến sự tồn tại của đối tượng.&lt;/li&gt;
+  &lt;li&gt;Khi retainCount của đối tượng về 0 thì đối tượng được giải phóng hoàn toàn khỏi bộ nhớ&lt;/li&gt;
+  &lt;li&gt;Khi retainCount &amp;gt; 0 và gán object = nil thì đối tượng cũng được giải phóng hoàn toàn khỏi bộ nhớ&lt;/li&gt;
+  &lt;li&gt;Khi tạo ra một tham chiếu “weak” đến một đối tượng, retainCount của đối tượng đó không tăng lên 1.&lt;/li&gt;
+  &lt;li&gt;Khi release một tham chiếu “weak” đến một đối tượng, retainCount của đối tượng đó không bị giảm đi 1.
+weak được sử dụng chủ yếu trong kết nối IBOutlet và sử dụng để tránh trường hợp retain cycle
+&lt;br /&gt;
+&lt;strong&gt;16)  Liệt kê 5 trạng thái của 1 ứng dụng iOs&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Not running: Ứng dụng chưa được mở hoặc đang mở thì bị đóng bởi hệ thống.
+Inactive: Ứng dụng đang chạy trên màn hình nhưng không nhận được thao tác nào của người dùng. Trạng thái này diễn ra khi ứng dụng đang trong giai đoạn chuyển từ màn hình này sang màn hình khác.
+Active: Đây là chế độ bình thường của ứng dụng, ứng dụng chạy trên mà hình và nhận được đầy đủ các thao tác của người dùng.
+Background: Ở trạng thái này, ứng dụng sẽ chạy ở dưới background, khi app đang chạy bình thường mà chúng ta ấn nút Home thì ứng dụng sẽ chuyển vào trạng thái này.
+Suspended: Ứng dụng nằm ở dưới background nhưng code sẽ không chạy.
+&lt;br /&gt;
+&lt;strong&gt;17)  Category là gì và cách sử dụng ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Để thêm một phương thức vào trong class mà không muốn mở rộng nó, chúng ta sử dụng Category. Categories là cách để chúng ta phân chia một lớp khởi tạo ra nhiều file khác nhau. Mục đích của việc này là để giảm bớt gánh nặng của việc duy trì các đoạn cơ sở code  lớn bằng việc modul hóa thành một lớp. Điều này giúp bạn tránh khỏi việc viết các tập tin với hơn 10000 dòng code mà không thể ứng dụng, di chuyển đến chỗ khác.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;18) Phân biệt viewDidLoad và viewDidAppear? Nên dùng phương thức nào để load dữ liệu từ server để hiển thị trên view? &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;– viewDidLoad: Được gọi một lần khi lần đầu tiên đối tượng view của đối tượng UIViewController hiển thị.&lt;/p&gt;
+
+&lt;p&gt;– viewDidAppear: Tương tự viewWillAppear, có thể được gọi nhiều lần. Method này được gọi sau khi view đã hiển thị.&lt;/p&gt;
+
+&lt;p&gt;Nếu data là dạng tĩnh và không thay đổi nhiều, chúng ta nên load chúng ở phương thức viewDidlLoad. Tuy nhiên, nếu data của bạn là động và thay đổi thường xuyên, chúng ta nên load tại phương thức ViewDidAppear. Và lưu ý là tại 2 phương thức, data cần phải load theo dạng bất đồng bộ ở một thread khác để tránh ảnh hưởng đến UI.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;19) Điều gì xảy ra khi bạn gọi một method trên một con trỏ nil? &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;Một message được gửi tới một nil object là chấp nhận được trong Objective-C. Đây là một tính năng của ngôn ngữ này và không được xét là lỗi.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;20)  Duyệt phần tử ở đâu thì nhanh hơn? NSSet hay NSArray?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Khi thứ tự của các phần tử không quan trọng thì quá trình duyệt phần tử tại NSSet sẽ nhanh hơn vì NSSet sử dụng hash value để tìm phần tử, giống như từ điển. Còn NSArray sẽ duyệt qua nội dung của từng phần tử một.&lt;/p&gt;</content><summary type="html">Tiếp theo phần 1, hôm nay chúng ta sẽ cùng nhau đi tiếp 10 câu hỏi còn lại trong bộ sưu tập những câu hỏi tuyển dụng cơ bản dành cho lập trình viên iOS mới ra trường và còn ít kinh nghiệm:</summary></entry></feed>
