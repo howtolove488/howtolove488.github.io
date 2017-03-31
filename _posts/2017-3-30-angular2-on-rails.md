@@ -48,12 +48,12 @@ $ rake db:migrate
 
 Run the rails development server
 ```bash
-    $ rails s
-    ```
+$ rails s
+```
 
 Then you already have a working Rails app! Point your browser to http://localhost:3000/widgets; then you should be able to view and create some widgets.
 
-![](https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/localhost4200Widgets.png?w=804)  
+![3](https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/localhost4200Widgets.png?w=804)  
 
 #2. Add API endpoint
 
@@ -61,8 +61,8 @@ Now it’s time to build API endpoints for these widgets you’ve just created. 
 
 With Rails, it is always easy to create another controller:
 ```bash
-    $ rails g controller api/widgets
-    ```
+$ rails g controller api/widgets
+```
 And edit widgets controller file.
 
 ```bash
@@ -112,14 +112,14 @@ class Api::WidgetsController < ApplicationController
     params.require(:widget).permit(:name, :description, :price)
   end
 end
-    ```   
+```   
 
 Add the controller to the route configuration.    
 ```bash
 namespace :api do
   resources :widgets
 end
-    ```  
+```  
 
 You can point your browser to http://localhost:3000/api/widgets and see JSON representation for your widget resources.
 
@@ -129,18 +129,18 @@ Now you have a working Rails app and API endpoint; it’s time to build an Angul
 With Angular CLI, it becomes easy to create an angular2 app. If you don’t have Angular CLI, install it with npm.
 ```bash
 $ npm install -g angular-cli
-    ``` 
+``` 
 And create an Angular2 app:
 ```bash
 $ ng new ng2-app
-    ``` 
+ ``` 
 This command will create an Angular2 app under ‘ng-app’ directory.
 ```bash
 $ cd ng2-app
 ng2-app$ npm start
-    ``` 
+``` 
 Point your browser to http://localhost:4200 and you will see this.    
-![](https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/localhost4200.png?w=970)
+![4](https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/localhost4200.png?w=970)
 
 #4. Add components and routing to the Angular2 app
 
@@ -156,7 +156,7 @@ ng2-app$ ng g component home
  create src/app/home/home.component.html
  create src/app/home/home.component.spec.ts
  create src/app/home/home.component.ts
-     ``` 
+``` 
 Let’s add a router to load one of these components based on your URL.
 ```bash
 import { NgModule } from '@angular/core';
@@ -176,7 +176,7 @@ const routes: Routes = [
   providers: []
 })
 export class Ng2RestAppRoutingModule { }     
-     ```
+```
 This routing configuration will have our app to load Widgets Component when we point the browser URL to ‘/widgets’ or Home Component otherwise.
 
 And we will have to tell where to load these components. Add <router-outlet></router-outlet>  at the end of ‘ng-app/src/app/app.component.html‘
@@ -193,7 +193,7 @@ And for our convenience, let’s add a navigation menu to app component template
 </nav>
 
 <router-outlet></router-outlet>     
-     ```
+```
 And let’s add it to the component class.
 ```bash
 import { Component } from '@angular/core';
@@ -210,7 +210,7 @@ export class AppComponent {
     widgets: ['/widgets']
   };
 }     
-     ```
+```
 
 Now we will have to wire all these modules in app.module.ts
 
@@ -241,7 +241,7 @@ import { WidgetsComponent } from './widgets/widgets.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }     
-     ```
+ ```
 At this point, you should be able to run the Angular2 app on the separate development server, i.e., ng serve. You can click the navigation button and see it loads home and widgets components.
 
 #5. Add a Service
@@ -254,7 +254,7 @@ ng2-app/src/app$ cd shared
 ng2-app/src/app/shared$ ng g service widgets
  create src/app/shared/widgets.service.spec.ts
  create src/app/shared/widgets.service.ts     
-     ```
+```
 
 Let’s edit widgets service:
 ```bash
@@ -274,7 +274,7 @@ import 'rxjs/add/operator/map';
       .map(res=> res.json())
   }
 }      
-     ```
+```
 Note that we didn’t add ‘http://localhost:3000’ suffix to the URL. We treat the API URL as if they are from the same origin.
 
 Let’s use this service on our widgets component:
@@ -296,7 +296,7 @@ export class WidgetsComponent implements OnInit {
     subscribe(widgets => this.widgets = widgets)
   }
 }     
-     ```
+```
 And update the template to display widgets object:
 ```bash
 <p>
@@ -306,7 +306,7 @@ And update the template to display widgets object:
 <pre>
   {{ widgets | json }}
 </pre>     
-     ```
+```
 And add the service module to the app modules.
 
 ```bash
@@ -340,7 +340,7 @@ import { WidgetsService } from './shared/widgets.service';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-	```
+```
 
 If you run your Angular2 app and load Widgets Component, you will see 404 error on the developer console. That is because we do not have anything on http://localhost:4200/api/widgets. Our backend server is running on http://localhost:3000/api/widgets. So we have to tell our Angular server to look at http://localhost:3000 when we make an API call.
 
@@ -357,7 +357,7 @@ First, you will have to create a proxy configuration file.
     "secure": false
   }
 }
-	```
+```
 This configuration tells that when you see ‘/api’ prefix in your URL, forward the message to ‘http://localhost:3000’.
 
 And let’s have our development server to use this proxy configuration. Open “package.json” file and replace start script with following:
