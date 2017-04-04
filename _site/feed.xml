@@ -1,5 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-03T11:05:29+07:00</updated><id>http://localhost:4000//</id><title type="html">Techtalk | Xu hướng công nghệ</title><subtitle>I'm a self-taught full-stack developer with hopes to become a software engineer.		 In my spare time, I make apps and coding tutorials.	 I've used technologies like ReactJS, React Native, NodeJS, and plenty more to build my applications.		
-</subtitle><entry><title type="html">Angular2 On Rails</title><link href="http://localhost:4000/2017/03/30/angular2-on-rails.html" rel="alternate" type="text/html" title="Angular2 On Rails" /><published>2017-03-30T00:00:00+07:00</published><updated>2017-03-30T00:00:00+07:00</updated><id>http://localhost:4000/2017/03/30/angular2-on-rails</id><content type="html" xml:base="http://localhost:4000/2017/03/30/angular2-on-rails.html">&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/trees-railroads-railroad-e1485229908918.jpg?fit=1024%2C617&quot; alt=&quot;How to have Angular2 and Rails coexist peacefully on your laptop and servers&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-04T10:02:55+07:00</updated><id>http://localhost:4000//</id><title type="html">Techtalk | Xu hướng công nghệ</title><subtitle>I'm a self-taught full-stack developer with hopes to become a software engineer.		 In my spare time, I make apps and coding tutorials.	 I've used technologies like ReactJS, React Native, NodeJS, and plenty more to build my applications.		
+</subtitle><entry><title type="html">Để tìm được công việc tốt, đừng mải theo đuổi đam mê!</title><link href="http://localhost:4000/jekyll/update/2017/04/04/de-tim-duoc-cong-viec-tot-dung-mai-theo-duoi-dam-me.html" rel="alternate" type="text/html" title="Để tìm được công việc tốt, đừng mải theo đuổi đam mê!" /><published>2017-04-04T00:00:00+07:00</published><updated>2017-04-04T00:00:00+07:00</updated><id>http://localhost:4000/jekyll/update/2017/04/04/de-tim-duoc-cong-viec-tot-dung-mai-theo-duoi-dam-me</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/04/04/de-tim-duoc-cong-viec-tot-dung-mai-theo-duoi-dam-me.html">&lt;p&gt;&lt;img src=&quot;http://cafebiz.cafebizcdn.vn/thumb_w/600/2017/job-interview-gettyimages-576936242-57c485cf5f9b5855e5c9e58b-1486385089202-1490279938437-1491190102008-40-0-374-650-crop-1491190124440-1491191202481-1491215842323.jpg&quot; alt=&quot;Để tìm được công việc tốt, đừng mải theo đuổi đam mê!&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Đam mê sẽ không phải là một vị thần, kéo đến và sừng sững ngồi yên một chỗ chờ bạn tưới tắm, chăm bón, phát huy. Mà bạn phải sống, phải làm việc, phải thử cái này, phải cố cái kia, phải thất bại thật nhiều thì mới dần tìm ra được.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Chúng ta đang được sống giữa một thời đại mà “đam mê” đã bị thần thánh hoá một cách quá mức. Đâu đâu cũng ra rả “có đam mê là có tất cả”, lướt Facebook thì đập vào mặt là một loạt những khoá học kĩ năng giương cao châm ngôn “hãy theo đuổi đam mê, thành công và sự giàu có sẽ theo đuổi bạn”. Đến mức giờ đây, nếu một người trẻ nào đó buột miệng thốt ra câu “Tôi chưa biết mình đam mê gì cả!” thì chắc hẳn vô số người sẽ cười nhếch mép và thầm nghĩ “haha, cái đồ thất bại!”. Nhưng khoan, bạn có thực sự hiểu đúng về đam mê?&lt;/p&gt;
+
+&lt;h1 id=&quot;7-nốt-nhạc-và-4-lần-thi-rớt-Đại-học&quot;&gt;7 nốt nhạc và 4 lần thi rớt Đại học!&lt;/h1&gt;
+
+&lt;p&gt;Nếu là một người hay đọc những mẩu tin dở khóc dở cười trên mạng thì sẽ khó để bạn có thể quên được câu chuyện về một anh chàng đến từ Quế Sơn, Quảng Nam từng 4 lần thi rớt Đại học hệ thanh nhạc nhưng vẫn quyết tâm “thử thêm lần nữa” vào năm 2012. Anh chàng này từ nhỏ đến lớn sống ở một vùng quê nghèo, đi thi với hành trang vỏn vẹn là vài trăm ngàn dằn túi. Tất cả những gì mà chàng trai này biết về âm nhạc đó là kiến thức căn bản về 7 nốt nhạc, biết hát vài bài quen thuộc nhờ nghe radio và thêm một số ca khúc dân ca do các cụ lớn tuổi ở quê truyền lại.&lt;/p&gt;
+
+&lt;p&gt;Còn nhớ ở thời điểm câu chuyện này bắt đầu nhen nhóm, rất nhiều người đã thể hiện sự thông cảm, đồng thời cổ vũ tinh thần và mong anh chàng này sẽ tiếp tục đăng kí thi lại để tìm kiếm cơ hội thay đổi số phận của mình. “Đam mê là tất cả những gì mà bạn có, hãy tin tưởng chính mình và theo đuổi đến cùng nhé!” – một comment điển hình trích ra từ câu chuyện năm xưa.&lt;/p&gt;
+
+&lt;p&gt;Anh chàng trên, cũng như những người từng hừng hực khí thế đứng sau cổ vũ chính là những nạn nhân điển hình của thứ gọi là “sự thần thánh hoá đam mê”. Tôi không có ý muốn dìm chết giấc mơ của người khác, cũng không có nhu cầu lên lớp ai. Tôi chỉ muốn mọi người thẳng thắn đối mặt với nút thắt thật sự trong câu chuyện trên: rằng làm sao mà một người với kiến thức âm nhạc bập bõm xoay quanh chỉ 7 nốt nhạc lại có thể đánh bại được hàng ngàn đối thủ khác và đậu Đại học cơ chứ?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cafebiz.cafebizcdn.vn/2017/photo-0-1491215889986.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lẽ ra ở thời điểm đó, thứ mà mọi người nên trao cho chàng trai kia không phải là niềm tin, là hi vọng, mà là một cái nhìn thật sự toàn diện về thứ mà anh ta đang theo đuổi. Lẽ ra nên có một ai đó bước đến và nói cho anh ta hiểu những chuẩn mực, những kiến thức cần thiết để có thể đậu được chuyên ngành khó nhằn kia. Lẽ ra nên có người nào đó nói cho anh ta biết rằng đam mê là một khái niệm vô chừng, và theo đuổi nó khi trong tay không có bất kì vũ khí gì là một quyết định thiếu sáng suốt.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cafebiz.cafebizcdn.vn/2017/photo-1-1491215889996.jpg&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Đam mê chỉ là điều kiện cần, không phải điều kiện đủ. Đam mê càng không phải là thứ để tuỳ tiện đem ra làm bình phong cho sự không cố gắng hay những thiếu sót của bản thân. Tiếc thay, rất nhiều người đã vô tình để phí thời gian, công sức, thậm chí đánh mất hàng năm trời tuổi trẻ của mình vì không hiểu được điều này, giống như anh chàng kia.&lt;/p&gt;
+
+&lt;h1 id=&quot;bạn-sinh-ra-để-làm-những-thứ-bạn-giỏi-không-phải-để-chạy-theo-những-thứ-bạn-yêu&quot;&gt;Bạn sinh ra để làm những thứ bạn giỏi, không phải để chạy theo những thứ bạn “yêu”.&lt;/h1&gt;
+
+&lt;p&gt;Đam mê cũng giống như khi yêu một người. Đôi khi thứ bạn gắn bó về lâu về dài lại không phải thứ khiến bạn ngày nhớ đêm mong, mà lại là thứ phù hợp nhất và giúp bạn hoàn thiện bản thân. Chúng ta bị “nhồi sọ” quá nhiều những suy nghĩ đại loại như “Không có giới hạn nào cho bản thân mỗi người”, “Bạn có thể trở thành bất cứ ai mà bạn muốn”. Không! Tôi, bạn, anh ấy, cô ta - tất cả mọi người, chúng ta không phải là siêu nhân, chúng ta là con người, và ai cũng đều có những giới hạn mà bản thân sẽ mãi mãi không thể vượt qua được.&lt;/p&gt;
+
+&lt;p&gt;Không phải tự nhiên trên đời này lại phân ra người não trái, não phải. Các nhà khoa học cũng chẳng thừa hơi dư sức mà đi làm hẳn một hệ thống phân loại 16 tính cách con người. Còn cả IQ và EQ nữa - rất nhiều những công ty sáng tạo và công nghệ lớn trên thế giới đang ngày ngày tuyển dụng nhân sự dựa vào hai chỉ số trên. Những thứ này được sinh ra để xác định tính cách, điểm mạnh, điểm yếu và con đường phù hợp của mỗi người.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cafebiz.cafebizcdn.vn/2017/photo-2-1491215890004.jpg&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hay nói cách khác, một phần những gì tạo nên bạn của ngày hôm nay sẽ quyết định bạn trở thành người thế nào sau này. Tài năng, kĩ năng, khả năng - tất cả những gì mà bạn đang có không hề dư thừa và ngẫu nhiên, nó là món quà mà ông trời ban tặng cho bạn vì một mục đích gì đó mà bạn là người có nhiệm vụ phải tìm ra.&lt;/p&gt;
+
+&lt;p&gt;Bạn sinh ra để làm những thứ bạn giỏi, không phải để chạy theo những thứ bạn “yêu”. Hãy thử tưởng tượng chuyện gì sẽ xảy ra nếu một người có IQ thấp, khả năng tiếp thu kém, không sâu sát tiểu tiết nhưng tràn đầy “đam mê” lại muốn được học nghề bác sĩ. Chắc chắn họ sẽ không thể hoàn thành chương trình học “khó thượng thừa” của mình. Và cũng chẳng ai muốn giao mạng sống, sức khoẻ của mình vào tay một bác sĩ như vậy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cafebiz.cafebizcdn.vn/2017/photo-3-1491215890009.jpg&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Câu chuyện về “anh chàng 7 nốt nhạc” ở trên cũng là một ví dụ điển hình. Có thể đam mê âm nhạc của anh chàng ấy cháy bỏng thật đấy, nhưng đáng tiếc đó lại không phải là thứ mà anh ấy giỏi. Nên nhớ rằng có bột mới gột nên hồ, sự cố gắng và tập luyện không ngừng nghỉ chỉ có thể có tác dụng khi bạn tìm được đúng đam mê, sống trong đúng môi trường phù hợp để phát triển bản thân. Cũng giống như một con cá chỉ có thể bơi nhanh khi được ở dưới nước, còn ở những môi trường khác, mọi vẫy vùng chỉ là vô ích. Vậy nên ngay từ hôm nay, thay vì đắn đo “Rốt cuộc mình thích cái gì?” thì hãy tự đặt câu hỏi “Mình làm tốt điều gì nhất? Thứ gì nếu mình không tồn tại thì nó cũng sẽ không tồn tại.”&lt;/p&gt;
+
+&lt;p&gt;Đam mê là chấp nhận quá trình, không chỉ là mong chờ thành quả.&lt;/p&gt;
+
+&lt;p&gt;Thật dễ để đưa ra câu trả lời khi có ai đó hỏi chúng ta muốn làm gì, muốn trở thành người như thế nào. Nhưng không phải ai cũng hình dung được những gì cần phải trả để bước được đến vị trí cuối cùng đó.&lt;/p&gt;
+
+&lt;p&gt;Tôi có một người bạn rất mê đồ hoạ. Thói quen đầu tiên của cậu ấy mỗi khi thức giấc là lao lên Behance và mải miết lưu về những thiết kế đẹp đến từ khắp nơi. Cậu ấy ôm mộng có thể tạo ra những sản phẩm tương tự, không ngừng khoe với cả thế giới ước mơ của mình và sẵn sàng đóng hàng chục triệu đồng cho những khoá học căn bản mà bạn hoàn toàn có thể tìm thấy nhan nhản trên mạng. Nhưng rồi chỉ sau vài tháng, cậu ấy bắt đầu chán nản, rồi cuối cùng là bỏ cuộc. Lí do là đến lúc bắt tay vào làm, cậu ấy mới nhận ra để làm nên những thứ đẹp đẽ như vậy lại chẳng dễ chút nào. Nào là một đống phím tắt khó nhớ, rồi những quy tắc thiết kế khô khan, 1001 khái niệm phối màu và cả những bài tập ghép trái cây “khùng điên” nữa. Vậy mà trước giờ cứ tưởng chỉ cần biết chọn hình với chọn font đẹp là được. Thế là hết, giấc mộng trở thành designer kết thúc tại đây. Tiếp tục về nhà lướt Behance trong vô vọng!&lt;/p&gt;
+
+&lt;p&gt;Với tính chất công việc của mình, tôi được gặp rất nhiều những bạn trẻ với những ước mơ lớn, những đam mê cháy bỏng tưởng chừng như không gì dập tắt được. Nhưng hoá ra thứ họ nhìn thấy chỉ là phần nổi của tảng băng chìm. Họ hồn nhiên nghĩ rằng thế giới này màu hồng, và con đường mà họ sắp bước đi sẽ ngập tràn những điều tốt đẹp, còn đam mê sẽ là chiếc khiên vững chắc bảo vệ cho ước mơ của họ. Trong lúc rung đùi cười hạnh phúc vì nghĩ về đích đến, họ quên mất rằng mình còn cả một con đường gian truân phải đi.&lt;/p&gt;
+
+&lt;p&gt;Bạn muốn làm ca sĩ nổi tiếng, đam mê của bạn là được đứng trên sân khấu ư? Được thôi! Nhưng liệu bạn đã sẵn sàng cho xuất phát điểm là ca sĩ hát lót hội chợ, sẽ phải làm việc, luyện tập 18h/ ngày, mất ngủ triền miên, cân nặng trồi sụt liên tục, suy nhược cơ thể, bị nhồi nhét trên những chiếc xe chật chội và ngồi lì trên đó cả ngày để đến điểm diễn, bước xuống hát 2 bài và rồi tiếp tục được quăng lên xe trở về ngay trong đêm? Nghe thật khó tin, nhưng đó chính là cuộc sống, là câu chuyện thật sự của rất nhiều những ca sĩ nổi tiếng hiện nay. Thậm chí có khi còn tồi tệ hơn. Nhưng liệu bạn có biết? Và nếu đã biết, thì bạn có sẵn sàng chấp nhận hi sinh?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cafebiz.cafebizcdn.vn/2017/photo-4-1491215890016.jpg&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hãy nghĩ kĩ về thứ mà bạn gọi là “đam mê”, tự hình dung ra bức tranh toàn cảnh và đặt những câu hỏi tương tự cho chính mình. Nếu còn đang lưỡng lự chưa biết trả lời thế nào thì có lẽ đã đến lúc để bạn nghiêm túc xem xét lại đam mê rồi đấy! Chỉ khi nào bạn chấp nhận được mọi khó khăn gian khổ, sẵn sàng nhảy khỏi giường vào mỗi sáng và chiến đấu đến cùng vì một thứ gì đó thì hãy gọi nó là “đam mê”.&lt;/p&gt;
+
+&lt;p&gt;Bạn sẽ không tìm thấy đam mê của mình ngay đâu!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cafebiz.cafebizcdn.vn/2017/photo-5-1491215890025.jpg&quot; alt=&quot;5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nếu bạn đã tìm ra thứ khiến bạn muốn gắn bó và theo đuổi cả đời, xin chúc mừng, bạn là người rất may mắn! Còn nếu không, cũng đừng vội nôn nóng hay cảm thấy bị “bỏ rơi”. Sự thật rằng trong cuộc đời của chúng ta, phần trăm những người không biết thứ mình khao khát luôn cao hơn so với những người hiểu rõ sứ mệnh của bản thân.&lt;/p&gt;
+
+&lt;p&gt;Nếu có thời gian, bạn nên dành một ít thời gian để tìm hiểu về Joy Mangano – người phụ nữ đã phát minh ra chiếc chổi lau tiện ích mang tên Miracle Mop – thứ đã cứu sống hàng chục triệu phụ nữ thường xuyên làm việc nhà trên thế giới. Joy vốn là một người có cuộc sống tẻ nhạt, suốt ngày ru rú trong nhà, hay cảm thấy mất phương hướng và luôn tự thắc mắc rốt cuộc mình tồn tại trên đời này là vì điều gì.&lt;/p&gt;
+
+&lt;p&gt;Và rồi cuối cùng vào một ngày đẹp trời, “đam mê” cũng đã xuất hiện. Nó không có gì to tát hơn ngoài việc… tạo nên một cây lau nhà chất lượng cho chính Joy lẫn những người hay làm việc nhà. Tôi còn nhớ mãi câu thoại của người phụ nữ này khi phải trình bày ý tưởng và thuyết phục giám đốc siêu thị để được bày bán sản phẩm của mình: “Thành thật mà nói thì tôi không biết gì về những biểu đồ phức tạp hay chuyện kinh doanh cả. Nhưng tôi là người tự tay lau nhà của mình mỗi ngày. Và tôi muốn làm ra cây lau nhà này vì tôi biết rằng nó tốt hơn bất kì thứ gì đang bày bán ngoài kia!”&lt;/p&gt;
+
+&lt;p&gt;Hay đó là câu chuyện về Yuki Hirano – một anh chàng rớt Đại học, không biết làm gì với cuộc đời của mình trong “Woodjob”. Trong một phút rảnh rổi sinh nông nổi, Yuki quyết định sẽ xách balo lên và về rừng để theo học một lớp tập huấn lâm nghiệp kéo dài 30 ngày chỉ vì vô tình nhìn thấy hình ảnh của một cô gái xinh đẹp trên tờ poster khoá học. Từ một chàng trai thành thị yếu ớt, lười biếng và lúc nào cũng ôm khư khư cái điện thoại bên mình, Yuki buộc phải lao vào làm những công việc tay chân cực khổ và chống chọi lại với sự khắc nghiệt của thiên nhiên. Đã có lúc anh chàng bỏ cuộc và tìm cách trốn chạy. Nhưng rồi cuối cùng Yuki vẫn quay lại với khu rừng Kamusari vì nhận ra giữa mình và thiên nhiên có một sự gắn kết lạ kì, và đây mới thực sự là đam mê, là thứ mà mình muốn theo đuổi cả đời.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cafebiz.cafebizcdn.vn/2017/photo-6-1491215890037.jpg&quot; alt=&quot;6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Vậy đó, đam mê sẽ không phải là một vị thần, kéo đến và sừng sững ngồi yên một chỗ chờ bạn tưới tắm, chăm bón, phát huy. Mà bạn phải sống, phải làm việc, phải thử cái này, phải cố cái kia, phải thất bại thật nhiều thì mới dần tìm ra được. Rất nhiều thứ đang chờ đợi bạn ở phía trước, đừng tự hạn chế khả năng của chính mình mà hãy trải nghiệm liên tục để biết được đâu là thứ mà mình đang thực sự tìm kiếm. Ngày tháng còn dài, làm tốt mới có báo đáp. Chúc bạn sẽ sớm tìm ra được sứ mệnh của cuộc đời mình và sống trọn vẹn với sứ mệnh đó.&lt;/p&gt;</content><summary type="html"></summary></entry><entry><title type="html">Angular2 On Rails</title><link href="http://localhost:4000/2017/03/30/angular2-on-rails.html" rel="alternate" type="text/html" title="Angular2 On Rails" /><published>2017-03-30T00:00:00+07:00</published><updated>2017-03-30T00:00:00+07:00</updated><id>http://localhost:4000/2017/03/30/angular2-on-rails</id><content type="html" xml:base="http://localhost:4000/2017/03/30/angular2-on-rails.html">&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/trees-railroads-railroad-e1485229908918.jpg?fit=1024%2C617&quot; alt=&quot;How to have Angular2 and Rails coexist peacefully on your laptop and servers&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;How to have Angular2 and Rails coexist peacefully on your laptop and servers&lt;/p&gt;
@@ -27,51 +95,52 @@
   &lt;li&gt;At deployment time, asset precompile will include your Angular 2 bundles so that Rails controller can serve the Angular2 app.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;#1. Create a Rails app.&lt;/p&gt;
+&lt;h1 id=&quot;1-create-a-rails-app&quot;&gt;1. Create a Rails app.&lt;/h1&gt;
 
 &lt;p&gt;The first thing you would need is a working Rails app. If you already have an existing rails app, that’s great. But if you’d like to start from scratch, here’s how we start.&lt;/p&gt;
 
 &lt;p&gt;Let’s create a Rails app and call it ‘rails_ng2.’&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rails new rails_ng2
-	&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;rails_ng2
-    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;rails new rails_ng2
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;rails_ng2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-And &lt;span class=&quot;nb&quot;&gt;let&lt;/span&gt;’s add a resource and call it ‘widget.’ The widget has three properties: name, description, and price.
+&lt;p&gt;And let’s add a resource and call it ‘widget.’ The widget has three properties: name, description, and price.&lt;/p&gt;
 
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
-    &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rails g scaffold Widget name description price:float
-    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
-![]&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/rails_g_scafold.png?resize&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1024%2C864&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;rails g scaffold Widget name description price:float
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-Let’s migrate the database.
+&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/rails_g_scafold.png?resize=1024%2C864&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
 
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
-    &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rake db:migrate
-    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
-![]&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/rake_db_migrate.png?resize&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1024%2C109&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;p&gt;Let’s migrate the database.&lt;/p&gt;
 
-Run the rails development server
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
-    &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rails s
-    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;rake db:migrate
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/rake_db_migrate.png?resize=1024%2C109&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
 
-Then you already have a working Rails app! Point your browser to http://localhost:3000/widgets; &lt;span class=&quot;k&quot;&gt;then &lt;/span&gt;you should be able to view and create some widgets.
+&lt;p&gt;Run the rails development server&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;rails s
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-![]&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/localhost4200Widgets.png?w&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;804&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;  
+&lt;p&gt;Then you already have a working Rails app! Point your browser to http://localhost:3000/widgets; then you should be able to view and create some widgets.&lt;/p&gt;
 
-&lt;span class=&quot;c&quot;&gt;#2. Add API endpoint&lt;/span&gt;
+&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/localhost4200Widgets.png?w=804&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
 
-Now it’s &lt;span class=&quot;nb&quot;&gt;time &lt;/span&gt;to build API endpoints &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;these widgets you’ve just created. It seems to be redundant to write another controller &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;the same behavior, but they serve two different audiences&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;human vs. machine&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; and purposes&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rendering HTML and providing data&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;. So it is always a good idea to create a separate endpoint &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;APIs.
+&lt;h1 id=&quot;2-add-api-endpoint&quot;&gt;2. Add API endpoint&lt;/h1&gt;
 
-With Rails, it is always easy to create another controller:
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
-    &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rails g controller api/widgets
-    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
-And edit widgets controller file.
+&lt;p&gt;Now it’s time to build API endpoints for these widgets you’ve just created. It seems to be redundant to write another controller for the same behavior, but they serve two different audiences(human vs. machine) and purposes(rendering HTML and providing data). So it is always a good idea to create a separate endpoint for APIs.&lt;/p&gt;
 
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
-class Api::WidgetsController &amp;lt; ApplicationController
+&lt;p&gt;With Rails, it is always easy to create another controller:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;rails g controller api/widgets
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;And edit widgets controller file.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Api::WidgetsController &amp;lt; ApplicationController
   before_action :set_widget, only: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;:show, :update, :destroy]
   respond_to :json
 
@@ -117,41 +186,41 @@ class Api::WidgetsController &amp;lt; ApplicationController
     params.require&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;:widget&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;.permit&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;:name, :description, :price&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
   end
 end
-    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;   
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-Add the controller to the route configuration.    
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
-namespace :api &lt;span class=&quot;k&quot;&gt;do
+&lt;p&gt;Add the controller to the route configuration.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;namespace :api &lt;span class=&quot;k&quot;&gt;do
   &lt;/span&gt;resources :widgets
 end
-    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-You can point your browser to http://localhost:3000/api/widgets and see JSON representation &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;your widget resources.
+&lt;p&gt;You can point your browser to http://localhost:3000/api/widgets and see JSON representation for your widget resources.&lt;/p&gt;
 
-&lt;span class=&quot;c&quot;&gt;#3. Add Angular2 App&lt;/span&gt;
-Now you have a working Rails app and API endpoint; it’s &lt;span class=&quot;nb&quot;&gt;time &lt;/span&gt;to build an Angular2 app to consume the API.
+&lt;h1 id=&quot;3-add-angular2-app&quot;&gt;3. Add Angular2 App&lt;/h1&gt;
+&lt;p&gt;Now you have a working Rails app and API endpoint; it’s time to build an Angular2 app to consume the API.&lt;/p&gt;
 
-With Angular CLI, it becomes easy to create an angular2 app. If you don’t have Angular CLI, install it with npm.
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
-&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;npm install -g angular-cli
-    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt; 
-And create an Angular2 app:
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
-&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;ng new ng2-app
-    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt; 
-This &lt;span class=&quot;nb&quot;&gt;command &lt;/span&gt;will create an Angular2 app under ‘ng-app’ directory.
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
-&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ng2-app
+&lt;p&gt;With Angular CLI, it becomes easy to create an angular2 app. If you don’t have Angular CLI, install it with npm.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;npm install -g angular-cli
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;And create an Angular2 app:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;ng new ng2-app
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;This command will create an Angular2 app under ‘ng-app’ directory.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ng2-app
 &lt;span class=&quot;gp&quot;&gt;ng2-app$ &lt;/span&gt;npm start
-    &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt; 
-Point your browser to http://localhost:4200 and you will see this.    
-![]&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/localhost4200.png?w&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;970&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Point your browser to http://localhost:4200 and you will see this.  &lt;br /&gt;
+&lt;img src=&quot;https://i0.wp.com/sungthecoder.com/wp-content/uploads/2017/01/localhost4200.png?w=970&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
 
-&lt;span class=&quot;c&quot;&gt;#4. Add components and routing to the Angular2 app&lt;/span&gt;
+&lt;h1 id=&quot;4-add-components-and-routing-to-the-angular2-app&quot;&gt;4. Add components and routing to the Angular2 app&lt;/h1&gt;
 
-Let’s create two components; home and widgets. With Angular CLI, it is one line task:
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
-&lt;span class=&quot;gp&quot;&gt;ng2-app$ &lt;/span&gt;ng g component widgets
+&lt;p&gt;Let’s create two components; home and widgets. With Angular CLI, it is one line task:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;ng2-app$ &lt;/span&gt;ng g component widgets
  create src/app/widgets/widgets.component.css
  create src/app/widgets/widgets.component.html
  create src/app/widgets/widgets.component.spec.ts
@@ -161,10 +230,10 @@ Let’s create two components; home and widgets. With Angular CLI, it is one lin
  create src/app/home/home.component.html
  create src/app/home/home.component.spec.ts
  create src/app/home/home.component.ts
-     &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt; 
-Let’s add a router to load one of these components based on your URL.
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
-import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; NgModule &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'@angular/core'&lt;/span&gt;;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Let’s add a router to load one of these components based on your URL.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; NgModule &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'@angular/core'&lt;/span&gt;;
 import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; Routes, RouterModule &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'@angular/router'&lt;/span&gt;;
 import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; WidgetsComponent &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'./widgets/widgets.component'&lt;/span&gt;;
 import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; HomeComponent &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'./home/home.component'&lt;/span&gt;;
@@ -181,16 +250,16 @@ const routes: Routes &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span cla
   providers: &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;})&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;class Ng2RestAppRoutingModule &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;     
-     &lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
-This routing configuration will have our app to load Widgets Component when we point the browser URL to ‘/widgets’ or Home Component otherwise.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;This routing configuration will have our app to load Widgets Component when we point the browser URL to ‘/widgets’ or Home Component otherwise.&lt;/p&gt;
 
-And we will have to tell where to load these components. Add &amp;lt;router-outlet&amp;gt;&amp;lt;/router-outlet&amp;gt;  at the end of ‘ng-app/src/app/app.component.html‘
+&lt;p&gt;And we will have to tell where to load these components. Add &lt;router-outlet&gt;&lt;/router-outlet&gt;  at the end of ‘ng-app/src/app/app.component.html‘&lt;/p&gt;
 
-And &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;our convenience, &lt;span class=&quot;nb&quot;&gt;let&lt;/span&gt;’s add a navigation menu to app component template.
+&lt;p&gt;And for our convenience, let’s add a navigation menu to app component template.&lt;/p&gt;
 
--app/src/app/app.component.htmlXHTML
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;bash
-&lt;span class=&quot;gp&quot;&gt;&amp;lt;h1&amp;gt;  &lt;/span&gt;&amp;lt;/h1&amp;gt;
+&lt;p&gt;-app/src/app/app.component.htmlXHTML&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;&amp;lt;h1&amp;gt;  &lt;/span&gt;&amp;lt;/h1&amp;gt;
 
 &amp;lt;nav &lt;span class=&quot;nv&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;mdl-navigation&quot;&lt;/span&gt;&amp;gt;
   &amp;lt;a &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;routerLink]&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;links.home&quot;&lt;/span&gt;&amp;gt;Home&amp;lt;/a&amp;gt;
@@ -198,184 +267,184 @@ And &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;our convenience, &lt;span c
 &amp;lt;/nav&amp;gt;
 
 &amp;lt;router-outlet&amp;gt;&amp;lt;/router-outlet&amp;gt;     
-     &lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
-And &lt;span class=&quot;nb&quot;&gt;let&lt;/span&gt;’s add it to the component class.
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash
-import { Component } from '@angular/core';
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;And let’s add it to the component class.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; Component &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'@angular/core'&lt;/span&gt;;
 
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
-})
-export class AppComponent {
-  title = 'app works!';
-  links = {
-    home: ['/'],
-    widgets: ['/widgets']
-  };
-}     
-     &lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+@Component&lt;span class=&quot;o&quot;&gt;({&lt;/span&gt;
+  selector: &lt;span class=&quot;s1&quot;&gt;'app-root'&lt;/span&gt;,
+  templateUrl: &lt;span class=&quot;s1&quot;&gt;'./app.component.html'&lt;/span&gt;,
+  styleUrls: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'./app.component.css'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;})&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;class AppComponent &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  title &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'app works!'&lt;/span&gt;;
+  links &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    home: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;,
+    widgets: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/widgets'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;     
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-Now we will have to wire all these modules &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;app.module.ts
+&lt;p&gt;Now we will have to wire all these modules in app.module.ts&lt;/p&gt;
 
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
-import { Ng2RestAppRoutingModule } from './app-routing.module';
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; BrowserModule &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'@angular/platform-browser'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; NgModule &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'@angular/core'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; FormsModule &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'@angular/forms'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; HttpModule &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'@angular/http'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; Ng2RestAppRoutingModule &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'./app-routing.module'&lt;/span&gt;;
 
-import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { WidgetsComponent } from './widgets/widgets.component';
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; AppComponent &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'./app.component'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; HomeComponent &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'./home/home.component'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; WidgetsComponent &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'./widgets/widgets.component'&lt;/span&gt;;
 
-@NgModule({
-  declarations: [
+@NgModule&lt;span class=&quot;o&quot;&gt;({&lt;/span&gt;
+  declarations: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;
     AppComponent,
     HomeComponent,
     WidgetsComponent
-  ],
-  imports: [
+  &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;,
+  imports: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;
     BrowserModule,
     FormsModule,
     HttpModule,
     Ng2RestAppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
-export class AppModule { }     
-     &lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
-At this point, you should be able to run the Angular2 app on the separate development server, i.e., ng serve. You can click the navigation button and see it loads home and widgets components.
+  &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;,
+  providers: &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;,
+  bootstrap: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;AppComponent]
+&lt;span class=&quot;o&quot;&gt;})&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;class AppModule &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;     
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;At this point, you should be able to run the Angular2 app on the separate development server, i.e., ng serve. You can click the navigation button and see it loads home and widgets components.&lt;/p&gt;
 
-&lt;span class=&quot;c&quot;&gt;#5. Add a Service&lt;/span&gt;
-Now we have built two separate apps: Rails app and Angular2 app, but they are not connected anyhow. In this step, we will create a service that can consume API that we’ve just &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;up on Rails app.
+&lt;h1 id=&quot;5-add-a-service&quot;&gt;5. Add a Service&lt;/h1&gt;
+&lt;p&gt;Now we have built two separate apps: Rails app and Angular2 app, but they are not connected anyhow. In this step, we will create a service that can consume API that we’ve just set up on Rails app.&lt;/p&gt;
 
-Angular CLI have service generator, but unlike the component generator, it creates files &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;the current directory. So we will have to create a directory and &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;into the directory where we want the service modules to reside.
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash
-ng2-app/src/app&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;mkdir shared
-ng2-app/src/app&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;cd shared
-ng2-app/src/app/shared&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;ng g service widgets
+&lt;p&gt;Angular CLI have service generator, but unlike the component generator, it creates files in the current directory. So we will have to create a directory and cd into the directory where we want the service modules to reside.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;ng2-app/src/app$ &lt;/span&gt;mkdir shared
+&lt;span class=&quot;gp&quot;&gt;ng2-app/src/app$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;shared
+&lt;span class=&quot;gp&quot;&gt;ng2-app/src/app/shared$ &lt;/span&gt;ng g service widgets
  create src/app/shared/widgets.service.spec.ts
  create src/app/shared/widgets.service.ts     
-     &lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-Let’s edit widgets service:
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash
-import { Injectable } from '@angular/core';
-import { Http, Response } from '@angular/http';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/operator/map';
+&lt;p&gt;Let’s edit widgets service:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; Injectable &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'@angular/core'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; Http, Response &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'@angular/http'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; Observable &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'rxjs/Observable'&lt;/span&gt;;
+import &lt;span class=&quot;s1&quot;&gt;'rxjs/add/operator/map'&lt;/span&gt;;
 
-@Injectable()
-  export class WidgetsService {
-  private url = 'api/widgets';
+@Injectable&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;class WidgetsService &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  private url &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'api/widgets'&lt;/span&gt;;
 
-  constructor (private http: Http) {}
+  constructor &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;private http: Http&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt;
 
-  getWidgets() {
-    return this.http.get(this.url)
-      .map(res=&amp;gt; res.json())
-  }
-}      
-     &lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
-Note that we didn’t add ‘http://localhost:3000’ suffix to the URL. We treat the API URL as &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;they are from the same origin.
+  getWidgets&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return &lt;/span&gt;this.http.get&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;this.url&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+      .map&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&amp;gt; res.json&lt;span class=&quot;o&quot;&gt;())&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;      
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Note that we didn’t add ‘http://localhost:3000’ suffix to the URL. We treat the API URL as if they are from the same origin.&lt;/p&gt;
 
-Let’s use this service on our widgets component:
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash
-import { Component, OnInit } from '@angular/core';
-import { WidgetsService } from '../shared/widgets.service'
+&lt;p&gt;Let’s use this service on our widgets component:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; Component, OnInit &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'@angular/core'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; WidgetsService &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'../shared/widgets.service'&lt;/span&gt;
 
-@Component({
-  selector: 'app-widgets',
-  templateUrl: './widgets.component.html',
-  styleUrls: ['./widgets.component.css']
-})
-export class WidgetsComponent implements OnInit {
-  constructor (private widgetsService: WidgetsService) {}
-  widgets = []
+@Component&lt;span class=&quot;o&quot;&gt;({&lt;/span&gt;
+  selector: &lt;span class=&quot;s1&quot;&gt;'app-widgets'&lt;/span&gt;,
+  templateUrl: &lt;span class=&quot;s1&quot;&gt;'./widgets.component.html'&lt;/span&gt;,
+  styleUrls: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'./widgets.component.css'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;})&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;class WidgetsComponent implements OnInit &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  constructor &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;private widgetsService: WidgetsService&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt;
+  widgets &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;
 
-  ngOnInit() {
-    this.widgetsService.getWidgets().
-    subscribe(widgets =&amp;gt; this.widgets = widgets)
-  }
-}     
-     &lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
-And update the template to display widgets object:
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash
-&amp;lt;p&amp;gt;
+  ngOnInit&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    this.widgetsService.getWidgets&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;.
+    subscribe&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;widgets &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&amp;gt; this.widgets &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; widgets&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;     
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;And update the template to display widgets object:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;p&amp;gt;
   widgets works!
 &amp;lt;/p&amp;gt;
 
 &amp;lt;pre&amp;gt;
   
-&amp;lt;/pre&amp;gt;     
-     &lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
-And add the service module to the app modules.
+&lt;span class=&quot;gp&quot;&gt;&amp;lt;/pre&amp;gt;     &lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;And add the service module to the app modules.&lt;/p&gt;
 
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
-import { Ng2RestAppRoutingModule } from './app-routing.module';
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; BrowserModule &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'@angular/platform-browser'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; NgModule &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'@angular/core'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; FormsModule &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'@angular/forms'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; HttpModule &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'@angular/http'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; Ng2RestAppRoutingModule &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'./app-routing.module'&lt;/span&gt;;
 
-import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { WidgetsComponent } from './widgets/widgets.component';
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; AppComponent &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'./app.component'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; HomeComponent &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'./home/home.component'&lt;/span&gt;;
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; WidgetsComponent &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'./widgets/widgets.component'&lt;/span&gt;;
 
-import { WidgetsService } from './shared/widgets.service';
+import &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; WidgetsService &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; from &lt;span class=&quot;s1&quot;&gt;'./shared/widgets.service'&lt;/span&gt;;
 
-@NgModule({
-  declarations: [
+@NgModule&lt;span class=&quot;o&quot;&gt;({&lt;/span&gt;
+  declarations: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;
     AppComponent,
     HomeComponent,
     WidgetsComponent
-  ],
-  imports: [
+  &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;,
+  imports: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;
     BrowserModule,
     FormsModule,
     HttpModule,
     Ng2RestAppRoutingModule
-  ],
-  providers: [
+  &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;,
+  providers: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;
     WidgetsService
-  ],
-  bootstrap: [AppComponent]
-})
-export class AppModule { }
-	&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;,
+  bootstrap: &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;AppComponent]
+&lt;span class=&quot;o&quot;&gt;})&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;class AppModule &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-If you run your Angular2 app and load Widgets Component, you will see 404 error on the developer console. That is because we &lt;span class=&quot;k&quot;&gt;do &lt;/span&gt;not have anything on http://localhost:4200/api/widgets. Our backend server is running on http://localhost:3000/api/widgets. So we have to tell our Angular server to look at http://localhost:3000 when we make an API call.
+&lt;p&gt;If you run your Angular2 app and load Widgets Component, you will see 404 error on the developer console. That is because we do not have anything on http://localhost:4200/api/widgets. Our backend server is running on http://localhost:3000/api/widgets. So we have to tell our Angular server to look at http://localhost:3000 when we make an API call.&lt;/p&gt;
 
-&lt;span class=&quot;c&quot;&gt;#6. Add dev server API proxy&lt;/span&gt;
+&lt;h1 id=&quot;6-add-dev-server-api-proxy&quot;&gt;6. Add dev server API proxy&lt;/h1&gt;
 
-In this step, we will tell Angular development server to look &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;localhost:3000 when we ask &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;something from /api/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.
+&lt;p&gt;In this step, we will tell Angular development server to look for localhost:3000 when we ask for something from /api/*.&lt;/p&gt;
 
-First, you will have to create a proxy configuration file.
+&lt;p&gt;First, you will have to create a proxy configuration file.&lt;/p&gt;
 
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash
-{
-  &quot;&lt;/span&gt;/api&lt;span class=&quot;s2&quot;&gt;&quot;: {
-    &quot;&lt;/span&gt;target&lt;span class=&quot;s2&quot;&gt;&quot;: &quot;&lt;/span&gt;http://localhost:3000&lt;span class=&quot;s2&quot;&gt;&quot;,
-    &quot;&lt;/span&gt;secure&lt;span class=&quot;s2&quot;&gt;&quot;: false
-  }
-}
-	&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
-This configuration tells that when you see ‘/api’ prefix &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;your URL, forward the message to ‘http://localhost:3000’.
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;/api&quot;&lt;/span&gt;: &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;target&quot;&lt;/span&gt;: &lt;span class=&quot;s2&quot;&gt;&quot;http://localhost:3000&quot;&lt;/span&gt;,
+    &lt;span class=&quot;s2&quot;&gt;&quot;secure&quot;&lt;/span&gt;: &lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;This configuration tells that when you see ‘/api’ prefix in your URL, forward the message to ‘http://localhost:3000’.&lt;/p&gt;
 
-And &lt;span class=&quot;nb&quot;&gt;let&lt;/span&gt;’s have our development server to use this proxy configuration. Open “package.json” file and replace start script with following:
+&lt;p&gt;And let’s have our development server to use this proxy configuration. Open “package.json” file and replace start script with following:&lt;/p&gt;
 
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bash		
-&quot;&lt;/span&gt;start&lt;span class=&quot;s2&quot;&gt;&quot;: &quot;&lt;/span&gt;ng serve --proxy-config proxy.config.json&lt;span class=&quot;s2&quot;&gt;&quot;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s2&quot;&gt;&quot;start&quot;&lt;/span&gt;: &lt;span class=&quot;s2&quot;&gt;&quot;ng serve --proxy-config proxy.config.json&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;p&gt;Now, restart your Angular2 development server, you should see Widgets Component load all the widgets in JSON format!&lt;/p&gt;
 
 &lt;p&gt;Congratulations! You successfully wired Rails app and Angular2 app. You can do both frontend and backend development in one directory structure. Add more API endpoints; then you should be able to use them right away from your Angular2 app.&lt;/p&gt;
 
-&lt;p&gt;#7. Add controller to serve the Angular2 app&lt;/p&gt;
+&lt;h1 id=&quot;7-add-controller-to-serve-the-angular2-app&quot;&gt;7. Add controller to serve the Angular2 app&lt;/h1&gt;
 
 &lt;p&gt;We’ve made a big progress, but we didn’t finish yet. Our ultimate goal is to have the Angular2 app available under our Rails app, not two separate servers: rails server running on port 3000, Angular server running on port 4200. Then we need to create a controller for our Angular2 app and router to call the controller.&lt;/p&gt;
 
@@ -430,8 +499,8 @@ Let’s open the application.html.erb and add one more line right before the clo
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;#8. Let Rails know where to find Anuglar2 app
-By default, Rails look for ‘app/assets/javascript’ and ‘lib/assets/javascript’, ‘vendor/assets/javascript’ directory to find the files we stated in &amp;lt;%= javascript_include_tag %&amp;gt; . But our Angular2 app does not reside on any of those directories. One solution would be copying Angular2 app files to one of standard search directories, but then we will have to copy files every time we build the Angular2 app and it’s too much work (I’m lazy). Instead, let’s teach Rails where to search.&lt;/p&gt;
+&lt;h1 id=&quot;8-let-rails-know-where-to-find-anuglar2-app&quot;&gt;8. Let Rails know where to find Anuglar2 app&lt;/h1&gt;
+&lt;p&gt;By default, Rails look for ‘app/assets/javascript’ and ‘lib/assets/javascript’, ‘vendor/assets/javascript’ directory to find the files we stated in &amp;lt;%= javascript_include_tag %&amp;gt; . But our Angular2 app does not reside on any of those directories. One solution would be copying Angular2 app files to one of standard search directories, but then we will have to copy files every time we build the Angular2 app and it’s too much work (I’m lazy). Instead, let’s teach Rails where to search.&lt;/p&gt;
 
 &lt;p&gt;Open ‘config/application.rb’ and add the following line between the ‘class Application &amp;lt; Rails::Application’ and ‘end’:&lt;/p&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;config.assets.paths &lt;span class=&quot;sh&quot;&gt;&amp;lt;&amp;lt; Rails.root.join(&quot;ng2-app&quot;, &quot;dist&quot;)
@@ -466,7 +535,7 @@ Have left all the bundle files under ‘dist/’ directory, we could include the
 
 &lt;p&gt;Instead of a directory location, we could have changed bundled file name with a suffix, e.g., ng2-app.main.bundle.js, ng2-app.inline.js, etc. But at the moment, there is no option to change bundled file name in Angular CLI configuration, so I decided to change its build target directory: ‘ng2-app/main.bundle.js’ instead of ‘ng2-app.main.bundle.js’.&lt;/p&gt;
 
-&lt;p&gt;#9. Deploying to Heroku&lt;/p&gt;
+&lt;h1 id=&quot;9-deploying-to-heroku&quot;&gt;9. Deploying to Heroku&lt;/h1&gt;
 
 &lt;p&gt;This section is optional if you’d like to deploy your app to Heroku.&lt;/p&gt;
 
@@ -490,17 +559,17 @@ end
 &lt;/div&gt;
 &lt;p&gt;Now, create a Heroku server to deploy your app:  heroku create&lt;/p&gt;
 
-&lt;p&gt;I don’t like to litter my master branch with precompiled assets in public directory. So I prefer to create a dist branch for deployment.
-&lt;code class=&quot;highlighter-rouge&quot;&gt;bash
-$ git co -b dist # create and switch to the dist branch
-(dist)$ rake assets:clobber # remove old assets
-(dist)$ (cd ng2-app; ng build) # build Angular2 app
-(dist)$ RAILS_ENV=production rake assets:precompile # precompile assets
-(dist)$ git add --all
-(dist)$ git commit -m &quot;initial deployment&quot; # commit the change
-(dist)$ git push heroku dist:master # push dist branch to heroku's master
-	&lt;/code&gt;
-These are a lot of steps to remember. You will have to:&lt;/p&gt;
+&lt;p&gt;I don’t like to litter my master branch with precompiled assets in public directory. So I prefer to create a dist branch for deployment.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git co -b dist &lt;span class=&quot;c&quot;&gt;# create and switch to the dist branch&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;(dist)$ &lt;/span&gt;rake assets:clobber &lt;span class=&quot;c&quot;&gt;# remove old assets&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;(dist)$ &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ng2-app; ng build&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# build Angular2 app&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;(dist)$ &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;RAILS_ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;production rake assets:precompile &lt;span class=&quot;c&quot;&gt;# precompile assets&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;(dist)$ &lt;/span&gt;git add --all
+&lt;span class=&quot;gp&quot;&gt;(dist)$ &lt;/span&gt;git commit -m &lt;span class=&quot;s2&quot;&gt;&quot;initial deployment&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# commit the change&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;(dist)$ &lt;/span&gt;git push heroku dist:master &lt;span class=&quot;c&quot;&gt;# push dist branch to heroku's master&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;These are a lot of steps to remember. You will have to:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;create and switch to a dist branch&lt;/li&gt;
@@ -515,7 +584,7 @@ These are a lot of steps to remember. You will have to:&lt;/p&gt;
 
 &lt;p&gt;Now your Rails+Angular2 app is in the world of the internet! If you see 404 error on the home page in this particular example, don’t panic. That’s because we didn’t create a home page; we didn’t create a controller nor routing for ‘/’. But you can visit ‘/widgets’ page and ‘ng2-app/’ page to enjoy your app working.&lt;/p&gt;
 
-&lt;p&gt;#Conclusion&lt;/p&gt;
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
 
 &lt;p&gt;We’ve looked at step by step process for building Rails Application and Angular2 app from scratch using own CLI tools. And we’ve learned the Angular2 development workflow using ‘ng serve’ and API proxy. And we have found how to integrate the Angualr2 app into Rails app by serving the assets via Rails routing, the controller, and the view. Finally, we deployed the app to Heroku for the worlds to enjoy.&lt;/p&gt;
 
@@ -607,7 +676,7 @@ These are a lot of steps to remember. You will have to:&lt;/p&gt;
       &lt;/blockquote&gt;
     &lt;/blockquote&gt;
   &lt;/blockquote&gt;
-&lt;/blockquote&gt;</content><summary type="html"></summary></entry><entry><title type="html">Lap Trinh Javascript Trong Nam 2017</title><link href="http://localhost:4000/2017/03/04/lap-trinh-javascript-trong-nam-2017.html" rel="alternate" type="text/html" title="Lap Trinh Javascript Trong Nam 2017" /><published>2017-03-04T00:00:00+07:00</published><updated>2017-03-04T00:00:00+07:00</updated><id>http://localhost:4000/2017/03/04/lap-trinh-javascript-trong-nam-2017</id><content type="html" xml:base="http://localhost:4000/2017/03/04/lap-trinh-javascript-trong-nam-2017.html">&lt;p&gt;&lt;img src=&quot;https://thefullfool.files.wordpress.com/2010/09/wheres-waldo1.jpg&quot; alt=&quot;Lập trình Javascript trong năm 2017&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><summary type="html"></summary></entry><entry><title type="html">Lập trình Javascript trong năm 2017</title><link href="http://localhost:4000/jekyll/update/2017/03/04/lap-trinh-javascript-trong-nam-2017.html" rel="alternate" type="text/html" title="Lập trình Javascript trong năm 2017" /><published>2017-03-04T00:00:00+07:00</published><updated>2017-03-04T00:00:00+07:00</updated><id>http://localhost:4000/jekyll/update/2017/03/04/lap-trinh-javascript-trong-nam-2017</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/03/04/lap-trinh-javascript-trong-nam-2017.html">&lt;p&gt;&lt;img src=&quot;https://thefullfool.files.wordpress.com/2010/09/wheres-waldo1.jpg&quot; alt=&quot;Lập trình Javascript trong năm 2017&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Lập trình Javascript trong năm 2017&lt;/p&gt;

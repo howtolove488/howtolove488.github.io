@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Lập trình Javascript trong năm 2017"
+date:   2017-03-04
+categories: jekyll update
+---
 ![Lập trình Javascript trong năm 2017](https://thefullfool.files.wordpress.com/2010/09/wheres-waldo1.jpg)
 
 > Lập trình Javascript trong năm 2017
