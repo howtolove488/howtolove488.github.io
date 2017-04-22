@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-04T10:02:55+07:00</updated><id>http://localhost:4000//</id><title type="html">Techtalk | Xu hướng công nghệ</title><subtitle>I'm a self-taught full-stack developer with hopes to become a software engineer.		 In my spare time, I make apps and coding tutorials.	 I've used technologies like ReactJS, React Native, NodeJS, and plenty more to build my applications.		
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-22T17:08:08+07:00</updated><id>http://localhost:4000//</id><title type="html">Techtalk | Xu hướng công nghệ</title><subtitle>I'm a self-taught full-stack developer with hopes to become a software engineer.		 In my spare time, I make apps and coding tutorials.	 I've used technologies like ReactJS, React Native, NodeJS, and plenty more to build my applications.		
 </subtitle><entry><title type="html">Để tìm được công việc tốt, đừng mải theo đuổi đam mê!</title><link href="http://localhost:4000/jekyll/update/2017/04/04/de-tim-duoc-cong-viec-tot-dung-mai-theo-duoi-dam-me.html" rel="alternate" type="text/html" title="Để tìm được công việc tốt, đừng mải theo đuổi đam mê!" /><published>2017-04-04T00:00:00+07:00</published><updated>2017-04-04T00:00:00+07:00</updated><id>http://localhost:4000/jekyll/update/2017/04/04/de-tim-duoc-cong-viec-tot-dung-mai-theo-duoi-dam-me</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/04/04/de-tim-duoc-cong-viec-tot-dung-mai-theo-duoi-dam-me.html">&lt;p&gt;&lt;img src=&quot;http://cafebiz.cafebizcdn.vn/thumb_w/600/2017/job-interview-gettyimages-576936242-57c485cf5f9b5855e5c9e58b-1486385089202-1490279938437-1491190102008-40-0-374-650-crop-1491190124440-1491191202481-1491215842323.jpg&quot; alt=&quot;Để tìm được công việc tốt, đừng mải theo đuổi đam mê!&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -827,4 +827,134 @@ Suspended: Ứng dụng nằm ở dưới background nhưng code sẽ không ch�
 
 &lt;p&gt;&lt;strong&gt;20)  Duyệt phần tử ở đâu thì nhanh hơn? NSSet hay NSArray?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Khi thứ tự của các phần tử không quan trọng thì quá trình duyệt phần tử tại NSSet sẽ nhanh hơn vì NSSet sử dụng hash value để tìm phần tử, giống như từ điển. Còn NSArray sẽ duyệt qua nội dung của từng phần tử một.&lt;/p&gt;</content><summary type="html">Tiếp theo phần 1, hôm nay chúng ta sẽ cùng nhau đi tiếp 10 câu hỏi còn lại trong bộ sưu tập những câu hỏi tuyển dụng cơ bản dành cho lập trình viên iOS mới ra trường và còn ít kinh nghiệm:</summary></entry></feed>
+&lt;p&gt;Khi thứ tự của các phần tử không quan trọng thì quá trình duyệt phần tử tại NSSet sẽ nhanh hơn vì NSSet sử dụng hash value để tìm phần tử, giống như từ điển. Còn NSArray sẽ duyệt qua nội dung của từng phần tử một.&lt;/p&gt;</content><summary type="html">Tiếp theo phần 1, hôm nay chúng ta sẽ cùng nhau đi tiếp 10 câu hỏi còn lại trong bộ sưu tập những câu hỏi tuyển dụng cơ bản dành cho lập trình viên iOS mới ra trường và còn ít kinh nghiệm:</summary></entry><entry><title type="html">Graphql</title><link href="http://localhost:4000/0017/04/22/GraphQL.html" rel="alternate" type="text/html" title="Graphql" /><published>0017-04-22T00:00:00+07:00</published><updated>0017-04-22T00:00:00+07:00</updated><id>http://localhost:4000/0017/04/22/GraphQL</id><content type="html" xml:base="http://localhost:4000/0017/04/22/GraphQL.html">&lt;p&gt;&lt;img src=&quot;https://cdn.thenewstack.io/media/2015/05/8541370656_3b638b0918_k-1024x732.jpg&quot; alt=&quot;React with graphql&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;GraphQL
+Có một sự thật về sự khác biệt giữa lập trình viên backend với lập trình viên frontend đó là:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Anh backend lúc nào cũng là cu-ly
+Anh frontend lại đóng vai trò là khách hàng, muốn dùng gì đều có thể đặt hàng anh backend trả ra cho đúng loại đó.
+Anh frontend muốn dữ liệu kiểu gì thì cứ việc miêu tả, việc còn lại cứ để anh backend lo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://viblo.asia/uploads/01b3b31f-5136-4d95-8059-c4f57057a5be.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Làm thế nào để đỡ cho anh backend? Câu trả lời bây giờ là RESTful, anh frontend muốn gì thì cứ theo REST mà lấy, tuy nhiên anh backend vẫn phải thường xuyên nhúng tay vào.
+Vậy tương lai sẽ là gì? Tất nhiên là tôi không thể trả lời vào thời điểm hiện tại, nhưng có thể là GraphQL&lt;/p&gt;
+
+&lt;p&gt;GraphQL là gì?
+Được Facebook giới thiệu cùng với Relay tại React.js Conf 2015, GraphQL là một ngôn ngữ truy vấn được tạo ra với mục đích hướng tới những dạng dữ liệu phức tạp, nhiều lớp với nhiều thành phần phụ thuộc được sử dụng ngày càng phổ biến trong các application hiện đại. Trên thực tế GraphQL đã được sử dụng từ vài năm trước trong ứng dụng trên mobile của Facebook.
+GraphQL cho phép người lập trình frontend miêu tả dạng dữ liệu mong muốn một cách chủ động trong code, sau khi thực hiện query, GraphQL sẽ trả ra theo đúng dạng đã miêu tả.
+Như vậy ở đây, ít nhất câu hỏi “Làm thế nào để đỡ cho anh backend?” đã có thể trả lời một cách rõ ràng hơn so với RESTful&lt;/p&gt;
+
+&lt;p&gt;Anh frontend muốn dữ liệu kiểu gì thì cứ việc miêu tả, việc còn lại cứ để anh backend GraphQL lo.
+GraphQL hoạt động như thế nào?
+Cho tới thời điểm hiện tại, Facebook mới chỉ đang lên kế hoạch để mở mã nguồn cho một phiên bản tham khảo từ GraphQL nên chúng ta sẽ vẫn chưa thể biết được thực sự bên trong GraphQL hoạt động như thế nào. Tuy nhiên, ta có thể hình dung bề nổi của tảng băng, giúp GraphQL hoạt động gồm 2 phần chính:&lt;/p&gt;
+
+&lt;p&gt;Schema Bản đồ chi tiết: mô tả của tất cả các trường, các mối quan hệ, các kiểu mà có thể sử dụng trong các truy vấn
+Executor Một tay hướng đạo sinh: nhận mô tả ( truy vấn ) và sử dụng các bản đồ (schema) ở trên để dẫn đường tới đích (tới các data node ) và thu gom dữ liệu luôn, tất nhiên rồi.
+Làm thế nào để vận hành GraphQL?
+Để dễ hình dung, tôi sẽ lấy ví dụ bằng cấu trúc dữ liệu của GithubAPI. Đây không phải là một mô tả hoàn toàn chính xác, chỉ là 1 ví dụ
+Ở đây tôi chỉ dùng DataMapper để mô tả các mảnh bản đồ kèm theo các mối quan hệ một cách đơn giản.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Author
+    include DataMapper::Resource
+
+    property :username,     String
+    property :id,           Integer
+    property :name,         String
+    property :avatar_url,   String
+
+    has n, :commits
+    has n, :repositories, though: :commits
+end
+
+class Repository
+    include DataMapper::Resource
+
+    property :id,           Integer
+    property :name,         String
+    property :full_name,    String
+    property :description,  String
+    property :language,     String
+
+    has n, :commits
+    has n, :authors, through: :commits
+end
+
+class Commit
+    include DataMapper::Resource
+
+    property :sha,          String
+    property :message,      String
+
+    belongs_to :author
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Như vậy, với vai trò là người làm backend, tôi đã xong việc của mình. Việc anh frontend muốn lấy cái gì, tôi không cần quan tâm nữa, anh ta nên tự yêu cầu.
+Với GraphQL, người làm frontend chỉ cần yêu cầu theo một format nào đó anh ta mong muốn, server sẽ gửi lại dữ liệu theo đúng dạng format đó.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Request&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    commit&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;sha: &lt;span class=&quot;s2&quot;&gt;&quot;c3b4dc2&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+        sha,
+        message,
+        author: &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            username,
+            name,
+            avatar_url
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# Response&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    sha: &lt;span class=&quot;s2&quot;&gt;&quot;c3b4dc2&quot;&lt;/span&gt;,
+    message: &lt;span class=&quot;s2&quot;&gt;&quot;Query with GraphQL&quot;&lt;/span&gt;,
+    author: &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        login: &lt;span class=&quot;s2&quot;&gt;&quot;yeuem1vannam&quot;&lt;/span&gt;,
+        name: &lt;span class=&quot;s2&quot;&gt;&quot;Phuong 'J' Le H.&quot;&lt;/span&gt;,
+        avatar_url: &lt;span class=&quot;s2&quot;&gt;&quot;https://avatars0.githubusercontent.com/u/2409560?v=3&amp;amp;s=40&quot;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ở đây tôi không nhắc tới Executor, tuy nhiên các bạn có thể thấy sự hiện diện của nó một cách rõ ràng, khi mà anh backend chỉ dừng lại ở việc định nghĩa các mảnh bản đồ, nhưng anh frontend vẫn có thể nhận được dữ liệu theo ý muốn.
+Như vậy, để vận hành GraphQL, chỉ cần định nghĩa được schema, sau đó muốn lấy data gì, chỉ cần gửi request theo đúng dạng mong muốn.&lt;/p&gt;
+
+&lt;p&gt;Vì sao phải là GraphQL mà không phải là các dạng SQL khác?
+Bản thân GraphQL cũng có những mối liên kết (relationship), nên việc sử dụng các dạng SQL khác thế chỗ GraphQL là điểu hiển nhiên có thể. Tuy nhiên, khi các mối quan hệ trở nên phức tạp, ví dụ như mối quan hệ của các pixel với màu trong bức ảnh, mối quan hệ của một mạng xã hội, mối quan hệ của các nguyên tử có trong phân tử của một chất nào đó, thì với các hệ SQL thông thường:&lt;/p&gt;
+
+&lt;p&gt;Việc lưu trữ và biểu diễn trở nên không hiệu quả.
+Việc truy vấn trở nên lộn xộn, không dễ gì để giữ được format theo đúng chuẩn.
+Khi các mối quan hệ trở nên trừu tượng, việc giữ các mối quan hệ đúng sẽ cần rất nhiều điều kiện.
+Chính những hình mẫu kể trên đã dẫn tới yêu cầu của một hệ cơ sở dữ liệu có khả năng quản trị theo phương pháp hình học. GraphQL là một trong số đó.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://viblo.asia/uploads/02fd97e9-b26e-49aa-94ae-059b4e0d59e3.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Vì sao phải là GraphQL mà không phải RESTful?
+RESTful thực sự rất tuyệt vời! Tôi có thể khẳng định như vậy.
+Nhưng khi sự phát triển của mobile apps và web one-page-application ngày càng trở nên mạnh mẽ, RESTful bộc lộ những điểm yếu của nó:&lt;/p&gt;
+
+&lt;p&gt;Việc chia nhỏ theo resource khiến ta phải khởi tạo nhiều request cùng lúc để có thể lấy hết lượng data mong muốn hiển thị.
+Khi dữ liệu có nhiều lớp, việc truy vấn trong database trở nên khó khăn, việc xuất dữ liệu ra trở nên kém hiệu quả bởi khả năng lặp lại dữ liệu cao.
+Logic backend trở nên phức tạp và phình to nhanh chóng khi một API phục vụ cho nhiều application khác nhau.
+Việc phát triển riêng biệt các component trong hệ thống vẫn còn khó khăn, bởi bất cứ thay đổi nào của một component, đều dẫn tới có thể ảnh hưởng tới các component còn lại. Ví dụ của tôi về mối quan hệ giữa backend dev và frontend dev là một minh chứng đơn giản.
+Trong khi đó, với GraphQL&lt;/p&gt;
+
+&lt;p&gt;Tất cả data mong muốn có thể gộp chung vào một truy vấn, tới một endpoint duy nhất
+Với phương pháp duyệt cây, mỗi data node chỉ cần duyệt qua một lần duy nhất là đã có thể dùng cho mọi nơi trong data set, không phụ thuộc vào độ phức tạp của format dữ liệu.
+Việc thay đổi phạm vi truy cập tới một trường nào đó cũng trở nên đơn giản, khả năng ảnh hưởng tới các phần khác thấp
+Việc phát triển riêng biệt các component trở nên hiện thực hơn bao giờ hết.
+Tương lai của GraphQL
+Trên thực tế GraphQL được công bố bởi nó được dùng trong Relay - framework mới của Facebook, và ý tưởng của GraphQL không phải là một ý tưởng mới, thậm chí vẫn còn tồn đọng những vấn đề về bảo mật.
+Tuy nhiên, dựa trên những gì chúng ta vừa phân tích, tôi nghĩ rằng GraphQL có khả năng phát triển và ứng dụng rất lớn, không chỉ với Replay mà có thể là một hệ quản trị độc lập. Sự thành công khi áp dụng nó không chỉ phụ thuộc vào bản thân GraphQL mà còn phụ thuộc vào phương pháp tiếp cận của chúng ta.
+Facebook đã chứng minh được khả năng của GraphQL khi có một cách tiếp cận đúng đắn.&lt;/p&gt;
+
+&lt;p&gt;TL;DR
+Khi các app hiện đại ngày càng trở nên phát triển, GraphQL thực sự là một công nghệ đáng chú ý, không chỉ có khả năng thay thế các công nghệ cũ nhằm đáp ứng được yêu cầu mới, mà còn có khả năng thay đổi cả phương pháp phát triển. Ngay lúc này, chúng ta đã và đang được trải nghiệm sức mạnh của GraphQL trên Facebook mobile app, sau đó sẽ là trên Relay, và những nền tảng khác nữa.
+GraphQL thực sự có thể trở thành một công nghệ thay đổi thế giới.&lt;/p&gt;</content><summary type="html"></summary></entry></feed>
