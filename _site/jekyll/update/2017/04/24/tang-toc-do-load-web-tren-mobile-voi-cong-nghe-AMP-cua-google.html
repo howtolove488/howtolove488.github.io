@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tăng tốc độ load web trên mobile với công nghệ AMP của Google</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/jekyll/update/2017/04/24/tang-toc-do-load-web-tren-mobile-voi-cong-nghe-AMP-cua-google.html">
+  <link rel="alternate" type="application/rss+xml" title="Techtalk | Xu hướng công nghệ" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Techtalk | Xu hướng công nghệ</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Tăng tốc độ load web trên mobile với công nghệ AMP của Google</h1>
+    <p class="post-meta"><time datetime="2017-04-24T14:02:57+07:00" itemprop="datePublished">Apr 24, 2017</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><img src="https://viblo.asia/uploads/47f50ba3-f105-403d-9f65-6b225e553974.jpg" alt="Tăng tốc độ load web trên mobile với công nghệ AMP của Google" /></p>
+
+<blockquote>
+  <p>Tăng tốc độ load web trên mobile với công nghệ AMP của Google</p>
+</blockquote>
+
+<h1 id="1amp-là-gì-">1.AMP là gì ?</h1>
+
+<p>AMP - Accelerated Mobile Page dự án mã nguồn mở được khởi động và quản lý của Google AMP là một10/2015.Một web site được xây dựng theo chuẩn AMP sẽ có tốc độ tải trang nhanh hơn gấp 4 lần và sử dụng ít dữ công nghệ để tăng tốc độ load cho website khi được truy cập qua các thiết bị di động được Google công bố đầu tiên vào tháng - là công cụ để build một web page, và render một cách nhanh nhất những nội dung cố định trên page đó.</p>
+
+<h1 id="2amp-hoạt-động-như-thế-nào">2.AMP hoạt động như thế nào?</h1>
+
+<p>Việc sử dụng AMP sẽ tập trung vào 3 phần chính là:</p>
+<ul>
+  <li>
+    <p>AMP HTML:là một tập con của HTML là một ngôn ngữ đánh dấu có một số thẻ tùy chỉnh và một số thuộc tính và một số giới hạn sử dụng</p>
+  </li>
+  <li>
+    <p>AMP JS: là một javascript framework cho các trang mobile.Nó quản lý cách trình bày tài nguyên và việc load tài nguyên một cách không đồng bộ.</p>
+  </li>
+</ul>
+
+<p>+Google web cache - AMP CDN
+tùy chọn mạng phân phối nội dung, nó sẽ lấy các trang AMP hợp lệ, cache chúng và tự động thực hiện một số công việc tối ưu load page AMP chỉ cho di động để tăng tốc load page thì phải đánh đổi rất nhiều về javascript, css hiện tại amp không cho phép các form, mã javascript xuất hiện trong trang, vì thế bạn sẽ không thể để các form , các on-page comments và một số phần tử khác mà bạn hay dùng trong một trang web thông thường.Vậy có nghĩa là để có một trang AMP hợp lệ bạn cần phải viết template cho site của bạn để nó phù hợp với các quy định của AMP. Ví dụ, tất cả CSS trong AMP phải được viết in-line và phải ít hơn 50KB, việc load custom fonts cũng cần được load sử dụng một extension amp-font đặc biệtcác tài nguyên media trên trang cũng cần được xử lý đặc biệt. Ví dụ, các ảnh cần dùng thành phần amp-imp và phải được xác định kích thước rõ ràng -width bao nhiêu, và height bao nhiêu. Thêm vào đó, nếu là ảnh động GIFs, bạn cần dùng thành phần amp-anim của AMP
+Nói chung bạn sẽ phải có 2 version cho bất kỳ một trang tin nào của site: thứ nhất là phiên bản gốc của trang tin mà người dùng thường thấy ví dụ khi họ đang lướt web thông qua desktop và một AMP version cho trang đó. Để google (hay các search engine có hỗ trợ AMP) phát hiện AMP version của một page, cần thay đổi một chút cho cả phiên bản gốc và AMP version của page đó. Phiên bản gốc phải được đưa vào một tag như sau:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;link <span class="nv">rel</span><span class="o">=</span><span class="s2">"amphtml"</span> <span class="nv">href</span><span class="o">=</span><span class="s2">"http://www.example.com/blog-post/amp/"</span>&gt;
+</code></pre>
+</div>
+<p>Còn AMP version page cần đưa vào một tag như sau</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;link <span class="nv">rel</span><span class="o">=</span><span class="s2">"canonical"</span> <span class="nv">href</span><span class="o">=</span><span class="s2">"https://www.example.com/url/to/full/document.html"</span>&gt;
+</code></pre>
+</div>
+<p>Nếu page chỉ có AMP version bạn cần thêm thẻ canonical link tới nó, đơn giản trỏ tới chính nó</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;link <span class="nv">rel</span><span class="o">=</span><span class="s2">"canonical"</span> <span class="nv">href</span><span class="o">=</span><span class="s2">"https://www.example.com/url/to/full/document.html"</span>&gt;
+</code></pre>
+</div>
+<p>Tạo trang amp page cho thapthanh.com</p>
+<h1 id="3-cách-tạo-ra-một-trang-amp-cho-site">3. Cách tạo ra một trang AMP cho site</h1>
+
+<p>Cấu trúc chung cho một AMP template</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;!doctype html&gt;
+&lt;html ⚡&gt;
+ &lt;head&gt;
+   &lt;meta <span class="nv">charset</span><span class="o">=</span><span class="s2">"utf-8"</span>&gt;
+   &lt;link <span class="nv">rel</span><span class="o">=</span><span class="s2">"canonical"</span> <span class="nv">href</span><span class="o">=</span><span class="s2">"hello-world.html"</span>&gt;
+   &lt;meta <span class="nv">name</span><span class="o">=</span><span class="s2">"viewport"</span> <span class="nv">content</span><span class="o">=</span><span class="s2">"width=device-width,minimum-
+
+scale=1,initial-scale=1"</span>&gt;
+   &lt;style amp-boilerplate&gt;body<span class="o">{</span>-webkit-animation:-....&lt;/style&gt;
+   &lt;script async <span class="nv">src</span><span class="o">=</span><span class="s2">"https://cdn.ampproject.org/v0.js"</span>&gt;&lt;/script&gt;
+ &lt;/head&gt;
+ &lt;body&gt;Hello World!
+ &lt;!--HTML tags--&gt;
+ &lt;!--AMP components--&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+</div>
+
+<p>Start with the doctype &lt;!doctype html&gt;.Contain a top-level &lt;html amp&gt; tag (&lt;html amp&gt; is accepted as well).</p>
+
+<p>Contain &lt;head&gt; and &lt;body&gt; tags (They are optional in HTML).Contain a <meta charset="utf-8" /> tag as the first child of their &lt;head&gt; tag.</p>
+
+<p>Contain a <script async="" src="https://cdn.ampproject.org/v0.js"></script> tag as the second child of their &lt;head&gt; tag (this includes and loads the AMP JS library).</p>
+
+<p>Contain a <link rel="canonical" href="$SOME_URL" /> tag inside their &lt;head&gt; tag that points to the regular HTML version of the AMP HTML document or to itself if no such HTML version exists.</p>
+
+<p>Contain a <meta name="viewport" content="width=device-width,minimum-scale=1" /> tag inside their &lt;head&gt; tag. It’s also recommended to include initial-scale=1.</p>
+
+<p>Contain the following in their &lt;head&gt; tag:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;style amp-boilerplate&gt;body<span class="o">{</span>-webkit-animation:-amp-start 8s steps<span class="o">(</span>1,end<span class="o">)</span> 0s 1 normal both;-moz-animation:-amp-start 8s steps<span class="o">(</span>1,end<span class="o">)</span> 0s 1 normal both;-ms-animation:-amp-start 8s steps<span class="o">(</span>1,end<span class="o">)</span> 0s 1 normal both;animation:-amp-start 8s steps<span class="o">(</span>1,end<span class="o">)</span> 0s 1 normal both<span class="o">}</span>@-webkit-keyframes -amp-start<span class="o">{</span>from<span class="o">{</span>visibility:hidden<span class="o">}</span>to<span class="o">{</span>visibility:visible<span class="o">}}</span>@-moz-keyframes -amp-start<span class="o">{</span>from<span class="o">{</span>visibility:hidden<span class="o">}</span>to<span class="o">{</span>visibility:visible<span class="o">}}</span>@-ms-keyframes -amp-start<span class="o">{</span>from<span class="o">{</span>visibility:hidden<span class="o">}</span>to<span class="o">{</span>visibility:visible<span class="o">}}</span>@-o-keyframes -amp-start<span class="o">{</span>from<span class="o">{</span>visibility:hidden<span class="o">}</span>to<span class="o">{</span>visibility:visible<span class="o">}}</span>@keyframes -amp-start<span class="o">{</span>from<span class="o">{</span>visibility:hidden<span class="o">}</span>to<span class="o">{</span>visibility:visible<span class="o">}}</span>&lt;/style&gt;&lt;noscript&gt;&lt;style amp-boilerplate&gt;body<span class="o">{</span>-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none<span class="o">}</span>&lt;/style&gt;&lt;/noscript&gt;
+</code></pre>
+</div>
+
+<p>amp-img: dùng để thay thế img tag trong HTML
+cú pháp:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;amp-img <span class="nv">src</span><span class="o">=</span><span class="s2">"/img/amp.jpg"</span> <span class="nv">width</span><span class="o">=</span><span class="s2">"1080"</span> <span class="nv">height</span><span class="o">=</span><span class="s2">"610"</span> <span class="nv">layout</span><span class="o">=</span><span class="s2">"responsive"</span> <span class="nv">alt</span><span class="o">=</span><span class="s2">"an image"</span>&gt;&lt;/amp-img&gt;
+</code></pre>
+</div>
+<p>Chú ý layout attribute là tùy chọn width, height là 2 thuộc tính bắt buộc và cần phải có các giá trị rõ ràng 
+src phải là HTTPS</p>
+
+<p>amp-video: dùng để thay thế cho video tag trong HTML5
+Cú pháp:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;amp-video <span class="nv">width</span><span class="o">=</span>480
+ <span class="nv">height</span><span class="o">=</span>270
+  <span class="nv">src</span><span class="o">=</span><span class="s2">"/video/tokyo.mp4"</span>
+  <span class="nv">poster</span><span class="o">=</span><span class="s2">"/img/tokyo.jpg"</span>
+  <span class="nv">layout</span><span class="o">=</span><span class="s2">"responsive"</span>
+  controls&gt;
+  &lt;div fallback&gt;
+    &lt;p&gt;Your browser doesn<span class="s1">'t support HTML5 video.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;source type="video/mp4" src="/video/tokyo.mp4"&gt;
+  &lt;source type="video/webm" src="/video/tokyo.webm"&gt;
+&lt;/amp-video&gt;
+</span></code></pre>
+</div>
+<p>Chú ý: poster attributes là ảnh được hiển thị trước khi video start, mặc định là frame đầu tiên</p>
+
+<p>src bắt buộc phải là HTTPS</p>
+
+<p>width, height là bắt buộc và phải được xác định giá trị rõ ràng
+Ngoài ra còn có các thuộc tính khác như: loop, muted, autoplay</p>
+
+<p>amp-anim: dùng cho ảnh động, điển hình như GIF
+cú pháp:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;amp-anim <span class="nv">width</span><span class="o">=</span>400 <span class="nv">height</span><span class="o">=</span>300 <span class="nv">src</span><span class="o">=</span><span class="s2">"my-gif.gif"</span>&gt;&lt;/amp-anim&gt;
+</code></pre>
+</div>
+<p>Chú ý: Để dùng được amp-anim cần phải load thêm thư viện javascript sau:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;script async custom-element<span class="o">=</span><span class="s2">"amp-anim"</span> <span class="nv">src</span><span class="o">=</span><span class="s2">"https://cdn.ampproject.org/v0/amp-anim-0.1.js"</span>&gt;&lt;/script&gt;
+</code></pre>
+</div>
+<p>2 thuộc tính width, height cần được xác định rõ ràng</p>
+
+<p>amp-anim còn hỗ trợ một tùy chọn placeholder child để hiển thị trong khi src file đang được load</p>
+
+<p>amp-audio: dùng để thay thế cho audio tag trong HTML5</p>
+
+<p>cú pháp:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;amp-audio <span class="nv">width</span><span class="o">=</span><span class="s2">"auto"</span> <span class="nv">height</span><span class="o">=</span><span class="s2">"50"</span>
+  <span class="nv">src</span><span class="o">=</span><span class="s2">"https://ia801402.us.archive.org/16/items/EDIS-SRP-0197-06.mp3"</span>&gt;
+  &lt;div fallback&gt;
+    &lt;p&gt;Your browser doesn’t support HTML5 audio&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/amp-audio&gt;
+</code></pre>
+</div>
+<p>chú ý: amp-audio không hỗ trợ responsive layout nhưng bạn có thể có điều đó bằng việc set height là fixed và width là auto</p>
+
+<p>Để dùng được amp-audio cần load thêm thư viện javascript sau:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;script async custom-element<span class="o">=</span><span class="s2">"amp-audio"</span> <span class="nv">src</span><span class="o">=</span><span class="s2">"https://cdn.ampproject.org/v0/amp-audio-0.1.js"</span>&gt;&lt;/script&gt;
+</code></pre>
+</div>
+<p>amp-carousel: được dùng cho slide show</p>
+
+<p>cú pháp:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;amp-carousel <span class="nv">width</span><span class="o">=</span>300 <span class="nv">height</span><span class="o">=</span>400&gt;
+  &lt;amp-img <span class="nv">src</span><span class="o">=</span><span class="s2">"my-img1.png"</span> <span class="nv">width</span><span class="o">=</span>300 <span class="nv">height</span><span class="o">=</span>400&gt;&lt;/amp-img&gt;
+  &lt;amp-img <span class="nv">src</span><span class="o">=</span><span class="s2">"my-img2.png"</span> <span class="nv">width</span><span class="o">=</span>300 <span class="nv">height</span><span class="o">=</span>400&gt;&lt;/amp-img&gt;
+  &lt;amp-img <span class="nv">src</span><span class="o">=</span><span class="s2">"my-img3.png"</span> <span class="nv">width</span><span class="o">=</span>300 <span class="nv">height</span><span class="o">=</span>400&gt;&lt;/amp-img&gt;
+&lt;/amp-carousel&gt;
+</code></pre>
+</div>
+<p>chú ý: Để dùng được amp-carousel cần thêm thư viện javascript sau:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;script async custom-element<span class="o">=</span><span class="s2">"amp-carousel"</span> <span class="nv">src</span><span class="o">=</span><span class="s2">"https://cdn.ampproject.org/v0/amp-carousel-0.1.js"</span>&gt;&lt;/script&gt;
+</code></pre>
+</div>
+<p>Các thuộc tính khác như: type (carousel hoặc slides), layout, control, autoplay, delay</p>
+
+<p>amp-iframe: dùng để hiển thị một iframe</p>
+
+<p>cú pháp:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;amp-iframe <span class="nv">width</span><span class="o">=</span>300 <span class="nv">height</span><span class="o">=</span>300
+    <span class="nv">sandbox</span><span class="o">=</span><span class="s2">"allow-scripts allow-same-origin"</span>
+    <span class="nv">layout</span><span class="o">=</span><span class="s2">"responsive"</span>
+    <span class="nv">frameborder</span><span class="o">=</span><span class="s2">"0"</span>
+    <span class="nv">src</span><span class="o">=</span><span class="s2">"https://foo.com/iframe"</span>&gt;
+&lt;/amp-iframe&gt;
+</code></pre>
+</div>
+<p>Chú ý:Để dùng được amp-iframe cần đưa vào thư viện javascript sau:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;script async custom-element<span class="o">=</span><span class="s2">"amp-iframe"</span> <span class="nv">src</span><span class="o">=</span><span class="s2">"https://cdn.ampproject.org/v0/amp-iframe-0.1.js"</span>&gt;&lt;/script&gt;
+</code></pre>
+</div>
+<p>amp-iframe không được xuất hiện sát trên cùng của page ngoại trừ iframe đó dùng placeholder. Nó phải cách top của page ít nhất 600px hoặc không chiếm quá 75% viewport</p>
+
+<p>src của amp-iframe yêu cầu phải là HTTPS</p>
+
+<p>amp-font: Điều khiển việc load custom font trên các AMP pages</p>
+
+<p>cú pháp:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;amp-font
+    <span class="nv">layout</span><span class="o">=</span><span class="s2">"nodisplay"</span>
+    font-family<span class="o">=</span><span class="s2">"Comic AMP Bold"</span>
+    <span class="nv">timeout</span><span class="o">=</span><span class="s2">"3000"</span>
+    font-weight<span class="o">=</span><span class="s2">"bold"</span>
+    on-error-remove-class<span class="o">=</span><span class="s2">"comic-amp-bold-font-loading"</span>
+    on-error-add-class<span class="o">=</span><span class="s2">"comic-amp-bold-font-missing"</span>
+    on-load-remove-class<span class="o">=</span><span class="s2">"comic-amp-bold-font-loading"</span>
+    on-load-add-class<span class="o">=</span><span class="s2">"comic-amp-bold-font-loaded"</span>&gt;
+&lt;/amp-font&gt;
+</code></pre>
+</div>
+<p>Chú ý:
+Để dùng được amp-font cần đưa vào thư viện javascript sau:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;script async custom-element<span class="o">=</span><span class="s2">"amp-font"</span> <span class="nv">src</span><span class="o">=</span><span class="s2">"https://cdn.ampproject.org/v0/amp-font-0.1.js"</span>&gt;&lt;/script&gt;
+</code></pre>
+</div>
+<p>amp-youtube: Để dùng cho việc nhúng video youtube
+cú pháp:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;amp-youtube data-videoid<span class="o">=</span><span class="s2">"mGENRKrdoGY"</span> <span class="nv">layout</span><span class="o">=</span><span class="s2">"responsive"</span> <span class="nv">width</span><span class="o">=</span><span class="s2">"480"</span> <span class="nv">height</span><span class="o">=</span><span class="s2">"270"</span>&gt;&lt;/amp-youtube&gt;
+</code></pre>
+</div>
+<p>chú ý:</p>
+
+<p>Để dùng được amp-youtube cần thêm thư viện javascript sau:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>&lt;script async custom-element<span class="o">=</span><span class="s2">"amp-youtube"</span> <span class="nv">src</span><span class="o">=</span><span class="s2">"https://cdn.ampproject.org/v0/amp-youtube-0.1.js"</span>&gt;&lt;/script&gt;
+</code></pre>
+</div>
+<p>data-videoid có giá trị chính là youtube id có thể xác định được từ url của youtube</p>
+
+<p>Ngoài ra còn rất nhiều component khác mà AMP hỗ trợ. Bạn có thể tham khảo thêm trên trang: https://www.ampproject.org/</p>
+
+<h1 id="4-cách-validate-một-trang-amp">4. Cách validate một trang amp</h1>
+
+<p>Các bước cần thực hiện để validate một AMP page:</p>
+<ul>
+  <li>mở page trong trình duyệt Chrome</li>
+  <li>Thêm “#development=1” to URL</li>
+  <li>Mở Chrome DevTools console và kiểm tra lỗi : click chuột chọn inspect element → sau đó chọn mục console hoặc dễ hơn bạn nhấn tổ hợp phím Ctrl + Shift + i (Windows) / Cmd + Opt + i (Mac)</li>
+</ul>
+
+<p><img src="https://viblo.asia/uploads/85e6e478-4382-489d-a935-a038adac51db.png" alt="" /></p>
+
+<p>Hình ảnh Chrome console với một số errors của AMP page
+<img src="https://viblo.asia/uploads/7483ebbc-f5b1-4c85-b718-b1f41ec97a7c.png" alt="" />
+Hình ảnh Chrome console trên một trang AMP hợp lệ</p>
+
+<h1 id="5-kết-luận">5. Kết luận</h1>
+
+<p>AMP là một công nghệ mới được Google chính thức công bố gần đây. Đã cố rất nhiều website lớn đã áp dụng công nghệ này. Có thể nói hiệu quả marketing của nó mang lại là rất lớn.</p>
+
+<p>Bài viết đã giới thiệu tổng quan về đặc điểm, lợi ích, cách áp dụng cũng như cách kiểm tra sự hợp lệ của một trang AMP. Mong rằng đây sẽ là một tài liệu hữu ích cho bạn khi bắt đầu tìm hiểu về AMP. Cảm ơn các bạn đã quan tâm tới bài viết của tôi. Hẹn gặp lại ở các bài viết tiếp theo.</p>
+
+  </div>
+
+  
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Techtalk | Xu hướng công nghệ</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Techtalk | Xu hướng công nghệ
+            
+            </li>
+            
+            <li><a href="mailto:viethoang.nghiem@gmail.com">viethoang.nghiem@gmail.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/howtolove488"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">howtolove488</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/kaviet88"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">kaviet88</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>I&#39;m a self-taught full-stack developer with hopes to become a software engineer.		 In my spare time, I make apps and coding tutorials.	 I&#39;ve used technologies like ReactJS, React Native, NodeJS, and plenty more to build my applications.		
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

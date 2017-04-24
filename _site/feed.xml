@@ -1,5 +1,229 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-22T17:08:08+07:00</updated><id>http://localhost:4000//</id><title type="html">Techtalk | Xu hướng công nghệ</title><subtitle>I'm a self-taught full-stack developer with hopes to become a software engineer.		 In my spare time, I make apps and coding tutorials.	 I've used technologies like ReactJS, React Native, NodeJS, and plenty more to build my applications.		
-</subtitle><entry><title type="html">Để tìm được công việc tốt, đừng mải theo đuổi đam mê!</title><link href="http://localhost:4000/jekyll/update/2017/04/04/de-tim-duoc-cong-viec-tot-dung-mai-theo-duoi-dam-me.html" rel="alternate" type="text/html" title="Để tìm được công việc tốt, đừng mải theo đuổi đam mê!" /><published>2017-04-04T00:00:00+07:00</published><updated>2017-04-04T00:00:00+07:00</updated><id>http://localhost:4000/jekyll/update/2017/04/04/de-tim-duoc-cong-viec-tot-dung-mai-theo-duoi-dam-me</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/04/04/de-tim-duoc-cong-viec-tot-dung-mai-theo-duoi-dam-me.html">&lt;p&gt;&lt;img src=&quot;http://cafebiz.cafebizcdn.vn/thumb_w/600/2017/job-interview-gettyimages-576936242-57c485cf5f9b5855e5c9e58b-1486385089202-1490279938437-1491190102008-40-0-374-650-crop-1491190124440-1491191202481-1491215842323.jpg&quot; alt=&quot;Để tìm được công việc tốt, đừng mải theo đuổi đam mê!&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-24T14:45:20+07:00</updated><id>http://localhost:4000//</id><title type="html">Techtalk | Xu hướng công nghệ</title><subtitle>I'm a self-taught full-stack developer with hopes to become a software engineer.		 In my spare time, I make apps and coding tutorials.	 I've used technologies like ReactJS, React Native, NodeJS, and plenty more to build my applications.		
+</subtitle><entry><title type="html">Tăng tốc độ load web trên mobile với công nghệ AMP của Google</title><link href="http://localhost:4000/jekyll/update/2017/04/24/tang-toc-do-load-web-tren-mobile-voi-cong-nghe-AMP-cua-google.html" rel="alternate" type="text/html" title="Tăng tốc độ load web trên mobile với công nghệ AMP của Google" /><published>2017-04-24T14:02:57+07:00</published><updated>2017-04-24T14:02:57+07:00</updated><id>http://localhost:4000/jekyll/update/2017/04/24/tang-toc-do-load-web-tren-mobile-voi-cong-nghe-AMP-cua-google</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/04/24/tang-toc-do-load-web-tren-mobile-voi-cong-nghe-AMP-cua-google.html">&lt;p&gt;&lt;img src=&quot;https://viblo.asia/uploads/47f50ba3-f105-403d-9f65-6b225e553974.jpg&quot; alt=&quot;Tăng tốc độ load web trên mobile với công nghệ AMP của Google&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Tăng tốc độ load web trên mobile với công nghệ AMP của Google&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;1amp-là-gì-&quot;&gt;1.AMP là gì ?&lt;/h1&gt;
+
+&lt;p&gt;AMP - Accelerated Mobile Page dự án mã nguồn mở được khởi động và quản lý của Google AMP là một10/2015.Một web site được xây dựng theo chuẩn AMP sẽ có tốc độ tải trang nhanh hơn gấp 4 lần và sử dụng ít dữ công nghệ để tăng tốc độ load cho website khi được truy cập qua các thiết bị di động được Google công bố đầu tiên vào tháng - là công cụ để build một web page, và render một cách nhanh nhất những nội dung cố định trên page đó.&lt;/p&gt;
+
+&lt;h1 id=&quot;2amp-hoạt-động-như-thế-nào&quot;&gt;2.AMP hoạt động như thế nào?&lt;/h1&gt;
+
+&lt;p&gt;Việc sử dụng AMP sẽ tập trung vào 3 phần chính là:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;AMP HTML:là một tập con của HTML là một ngôn ngữ đánh dấu có một số thẻ tùy chỉnh và một số thuộc tính và một số giới hạn sử dụng&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;AMP JS: là một javascript framework cho các trang mobile.Nó quản lý cách trình bày tài nguyên và việc load tài nguyên một cách không đồng bộ.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;+Google web cache - AMP CDN
+tùy chọn mạng phân phối nội dung, nó sẽ lấy các trang AMP hợp lệ, cache chúng và tự động thực hiện một số công việc tối ưu load page AMP chỉ cho di động để tăng tốc load page thì phải đánh đổi rất nhiều về javascript, css hiện tại amp không cho phép các form, mã javascript xuất hiện trong trang, vì thế bạn sẽ không thể để các form , các on-page comments và một số phần tử khác mà bạn hay dùng trong một trang web thông thường.Vậy có nghĩa là để có một trang AMP hợp lệ bạn cần phải viết template cho site của bạn để nó phù hợp với các quy định của AMP. Ví dụ, tất cả CSS trong AMP phải được viết in-line và phải ít hơn 50KB, việc load custom fonts cũng cần được load sử dụng một extension amp-font đặc biệtcác tài nguyên media trên trang cũng cần được xử lý đặc biệt. Ví dụ, các ảnh cần dùng thành phần amp-imp và phải được xác định kích thước rõ ràng -width bao nhiêu, và height bao nhiêu. Thêm vào đó, nếu là ảnh động GIFs, bạn cần dùng thành phần amp-anim của AMP
+Nói chung bạn sẽ phải có 2 version cho bất kỳ một trang tin nào của site: thứ nhất là phiên bản gốc của trang tin mà người dùng thường thấy ví dụ khi họ đang lướt web thông qua desktop và một AMP version cho trang đó. Để google (hay các search engine có hỗ trợ AMP) phát hiện AMP version của một page, cần thay đổi một chút cho cả phiên bản gốc và AMP version của page đó. Phiên bản gốc phải được đưa vào một tag như sau:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;link &lt;span class=&quot;nv&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;amphtml&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://www.example.com/blog-post/amp/&quot;&lt;/span&gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Còn AMP version page cần đưa vào một tag như sau&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;link &lt;span class=&quot;nv&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;canonical&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://www.example.com/url/to/full/document.html&quot;&lt;/span&gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Nếu page chỉ có AMP version bạn cần thêm thẻ canonical link tới nó, đơn giản trỏ tới chính nó&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;link &lt;span class=&quot;nv&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;canonical&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://www.example.com/url/to/full/document.html&quot;&lt;/span&gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Tạo trang amp page cho thapthanh.com&lt;/p&gt;
+&lt;h1 id=&quot;3-cách-tạo-ra-một-trang-amp-cho-site&quot;&gt;3. Cách tạo ra một trang AMP cho site&lt;/h1&gt;
+
+&lt;p&gt;Cấu trúc chung cho một AMP template&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html ⚡&amp;gt;
+ &amp;lt;head&amp;gt;
+   &amp;lt;meta &lt;span class=&quot;nv&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&amp;gt;
+   &amp;lt;link &lt;span class=&quot;nv&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;canonical&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;hello-world.html&quot;&lt;/span&gt;&amp;gt;
+   &amp;lt;meta &lt;span class=&quot;nv&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;width=device-width,minimum-
+
+scale=1,initial-scale=1&quot;&lt;/span&gt;&amp;gt;
+   &amp;lt;style amp-boilerplate&amp;gt;body&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;-webkit-animation:-....&amp;lt;/style&amp;gt;
+   &amp;lt;script async &lt;span class=&quot;nv&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://cdn.ampproject.org/v0.js&quot;&lt;/span&gt;&amp;gt;&amp;lt;/script&amp;gt;
+ &amp;lt;/head&amp;gt;
+ &amp;lt;body&amp;gt;Hello World!
+ &amp;lt;!--HTML tags--&amp;gt;
+ &amp;lt;!--AMP components--&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Start with the doctype &amp;lt;!doctype html&amp;gt;.Contain a top-level &amp;lt;html amp&amp;gt; tag (&amp;lt;html amp&amp;gt; is accepted as well).&lt;/p&gt;
+
+&lt;p&gt;Contain &amp;lt;head&amp;gt; and &amp;lt;body&amp;gt; tags (They are optional in HTML).Contain a &lt;meta charset=&quot;utf-8&quot; /&gt; tag as the first child of their &amp;lt;head&amp;gt; tag.&lt;/p&gt;
+
+&lt;p&gt;Contain a &lt;script async=&quot;&quot; src=&quot;https://cdn.ampproject.org/v0.js&quot;&gt;&lt;/script&gt; tag as the second child of their &amp;lt;head&amp;gt; tag (this includes and loads the AMP JS library).&lt;/p&gt;
+
+&lt;p&gt;Contain a &lt;link rel=&quot;canonical&quot; href=&quot;$SOME_URL&quot; /&gt; tag inside their &amp;lt;head&amp;gt; tag that points to the regular HTML version of the AMP HTML document or to itself if no such HTML version exists.&lt;/p&gt;
+
+&lt;p&gt;Contain a &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,minimum-scale=1&quot; /&gt; tag inside their &amp;lt;head&amp;gt; tag. It’s also recommended to include initial-scale=1.&lt;/p&gt;
+
+&lt;p&gt;Contain the following in their &amp;lt;head&amp;gt; tag:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;style amp-boilerplate&amp;gt;body&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;-webkit-animation:-amp-start 8s steps&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1,end&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 0s 1 normal both;-moz-animation:-amp-start 8s steps&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1,end&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 0s 1 normal both;-ms-animation:-amp-start 8s steps&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1,end&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 0s 1 normal both;animation:-amp-start 8s steps&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1,end&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 0s 1 normal both&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;@-webkit-keyframes -amp-start&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;from&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;visibility:hidden&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;to&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;visibility:visible&lt;span class=&quot;o&quot;&gt;}}&lt;/span&gt;@-moz-keyframes -amp-start&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;from&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;visibility:hidden&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;to&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;visibility:visible&lt;span class=&quot;o&quot;&gt;}}&lt;/span&gt;@-ms-keyframes -amp-start&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;from&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;visibility:hidden&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;to&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;visibility:visible&lt;span class=&quot;o&quot;&gt;}}&lt;/span&gt;@-o-keyframes -amp-start&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;from&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;visibility:hidden&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;to&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;visibility:visible&lt;span class=&quot;o&quot;&gt;}}&lt;/span&gt;@keyframes -amp-start&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;from&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;visibility:hidden&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;to&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;visibility:visible&lt;span class=&quot;o&quot;&gt;}}&lt;/span&gt;&amp;lt;/style&amp;gt;&amp;lt;noscript&amp;gt;&amp;lt;style amp-boilerplate&amp;gt;body&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&amp;lt;/style&amp;gt;&amp;lt;/noscript&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;amp-img: dùng để thay thế img tag trong HTML
+cú pháp:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;amp-img &lt;span class=&quot;nv&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/img/amp.jpg&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;1080&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;610&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;responsive&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;an image&quot;&lt;/span&gt;&amp;gt;&amp;lt;/amp-img&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Chú ý layout attribute là tùy chọn width, height là 2 thuộc tính bắt buộc và cần phải có các giá trị rõ ràng 
+src phải là HTTPS&lt;/p&gt;
+
+&lt;p&gt;amp-video: dùng để thay thế cho video tag trong HTML5
+Cú pháp:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;amp-video &lt;span class=&quot;nv&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;480
+ &lt;span class=&quot;nv&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;270
+  &lt;span class=&quot;nv&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/video/tokyo.mp4&quot;&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;poster&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/img/tokyo.jpg&quot;&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;responsive&quot;&lt;/span&gt;
+  controls&amp;gt;
+  &amp;lt;div fallback&amp;gt;
+    &amp;lt;p&amp;gt;Your browser doesn&lt;span class=&quot;s1&quot;&gt;'t support HTML5 video.&amp;lt;/p&amp;gt;
+  &amp;lt;/div&amp;gt;
+  &amp;lt;source type=&quot;video/mp4&quot; src=&quot;/video/tokyo.mp4&quot;&amp;gt;
+  &amp;lt;source type=&quot;video/webm&quot; src=&quot;/video/tokyo.webm&quot;&amp;gt;
+&amp;lt;/amp-video&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Chú ý: poster attributes là ảnh được hiển thị trước khi video start, mặc định là frame đầu tiên&lt;/p&gt;
+
+&lt;p&gt;src bắt buộc phải là HTTPS&lt;/p&gt;
+
+&lt;p&gt;width, height là bắt buộc và phải được xác định giá trị rõ ràng
+Ngoài ra còn có các thuộc tính khác như: loop, muted, autoplay&lt;/p&gt;
+
+&lt;p&gt;amp-anim: dùng cho ảnh động, điển hình như GIF
+cú pháp:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;amp-anim &lt;span class=&quot;nv&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;400 &lt;span class=&quot;nv&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;300 &lt;span class=&quot;nv&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;my-gif.gif&quot;&lt;/span&gt;&amp;gt;&amp;lt;/amp-anim&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Chú ý: Để dùng được amp-anim cần phải load thêm thư viện javascript sau:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script async custom-element&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;amp-anim&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://cdn.ampproject.org/v0/amp-anim-0.1.js&quot;&lt;/span&gt;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;2 thuộc tính width, height cần được xác định rõ ràng&lt;/p&gt;
+
+&lt;p&gt;amp-anim còn hỗ trợ một tùy chọn placeholder child để hiển thị trong khi src file đang được load&lt;/p&gt;
+
+&lt;p&gt;amp-audio: dùng để thay thế cho audio tag trong HTML5&lt;/p&gt;
+
+&lt;p&gt;cú pháp:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;amp-audio &lt;span class=&quot;nv&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;auto&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;50&quot;&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://ia801402.us.archive.org/16/items/EDIS-SRP-0197-06.mp3&quot;&lt;/span&gt;&amp;gt;
+  &amp;lt;div fallback&amp;gt;
+    &amp;lt;p&amp;gt;Your browser doesn’t support HTML5 audio&amp;lt;/p&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/amp-audio&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;chú ý: amp-audio không hỗ trợ responsive layout nhưng bạn có thể có điều đó bằng việc set height là fixed và width là auto&lt;/p&gt;
+
+&lt;p&gt;Để dùng được amp-audio cần load thêm thư viện javascript sau:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script async custom-element&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;amp-audio&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://cdn.ampproject.org/v0/amp-audio-0.1.js&quot;&lt;/span&gt;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;amp-carousel: được dùng cho slide show&lt;/p&gt;
+
+&lt;p&gt;cú pháp:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;amp-carousel &lt;span class=&quot;nv&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;300 &lt;span class=&quot;nv&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;400&amp;gt;
+  &amp;lt;amp-img &lt;span class=&quot;nv&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;my-img1.png&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;300 &lt;span class=&quot;nv&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;400&amp;gt;&amp;lt;/amp-img&amp;gt;
+  &amp;lt;amp-img &lt;span class=&quot;nv&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;my-img2.png&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;300 &lt;span class=&quot;nv&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;400&amp;gt;&amp;lt;/amp-img&amp;gt;
+  &amp;lt;amp-img &lt;span class=&quot;nv&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;my-img3.png&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;300 &lt;span class=&quot;nv&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;400&amp;gt;&amp;lt;/amp-img&amp;gt;
+&amp;lt;/amp-carousel&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;chú ý: Để dùng được amp-carousel cần thêm thư viện javascript sau:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script async custom-element&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;amp-carousel&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://cdn.ampproject.org/v0/amp-carousel-0.1.js&quot;&lt;/span&gt;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Các thuộc tính khác như: type (carousel hoặc slides), layout, control, autoplay, delay&lt;/p&gt;
+
+&lt;p&gt;amp-iframe: dùng để hiển thị một iframe&lt;/p&gt;
+
+&lt;p&gt;cú pháp:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;amp-iframe &lt;span class=&quot;nv&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;300 &lt;span class=&quot;nv&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;300
+    &lt;span class=&quot;nv&quot;&gt;sandbox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;allow-scripts allow-same-origin&quot;&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;responsive&quot;&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;frameborder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;0&quot;&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://foo.com/iframe&quot;&lt;/span&gt;&amp;gt;
+&amp;lt;/amp-iframe&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Chú ý:Để dùng được amp-iframe cần đưa vào thư viện javascript sau:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script async custom-element&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;amp-iframe&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://cdn.ampproject.org/v0/amp-iframe-0.1.js&quot;&lt;/span&gt;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;amp-iframe không được xuất hiện sát trên cùng của page ngoại trừ iframe đó dùng placeholder. Nó phải cách top của page ít nhất 600px hoặc không chiếm quá 75% viewport&lt;/p&gt;
+
+&lt;p&gt;src của amp-iframe yêu cầu phải là HTTPS&lt;/p&gt;
+
+&lt;p&gt;amp-font: Điều khiển việc load custom font trên các AMP pages&lt;/p&gt;
+
+&lt;p&gt;cú pháp:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;amp-font
+    &lt;span class=&quot;nv&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;nodisplay&quot;&lt;/span&gt;
+    font-family&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Comic AMP Bold&quot;&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;timeout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;3000&quot;&lt;/span&gt;
+    font-weight&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;bold&quot;&lt;/span&gt;
+    on-error-remove-class&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;comic-amp-bold-font-loading&quot;&lt;/span&gt;
+    on-error-add-class&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;comic-amp-bold-font-missing&quot;&lt;/span&gt;
+    on-load-remove-class&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;comic-amp-bold-font-loading&quot;&lt;/span&gt;
+    on-load-add-class&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;comic-amp-bold-font-loaded&quot;&lt;/span&gt;&amp;gt;
+&amp;lt;/amp-font&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Chú ý:
+Để dùng được amp-font cần đưa vào thư viện javascript sau:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script async custom-element&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;amp-font&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://cdn.ampproject.org/v0/amp-font-0.1.js&quot;&lt;/span&gt;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;amp-youtube: Để dùng cho việc nhúng video youtube
+cú pháp:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;amp-youtube data-videoid&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;mGENRKrdoGY&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;responsive&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;480&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;270&quot;&lt;/span&gt;&amp;gt;&amp;lt;/amp-youtube&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;chú ý:&lt;/p&gt;
+
+&lt;p&gt;Để dùng được amp-youtube cần thêm thư viện javascript sau:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script async custom-element&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;amp-youtube&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://cdn.ampproject.org/v0/amp-youtube-0.1.js&quot;&lt;/span&gt;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;data-videoid có giá trị chính là youtube id có thể xác định được từ url của youtube&lt;/p&gt;
+
+&lt;p&gt;Ngoài ra còn rất nhiều component khác mà AMP hỗ trợ. Bạn có thể tham khảo thêm trên trang: https://www.ampproject.org/&lt;/p&gt;
+
+&lt;h1 id=&quot;4-cách-validate-một-trang-amp&quot;&gt;4. Cách validate một trang amp&lt;/h1&gt;
+
+&lt;p&gt;Các bước cần thực hiện để validate một AMP page:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;mở page trong trình duyệt Chrome&lt;/li&gt;
+  &lt;li&gt;Thêm “#development=1” to URL&lt;/li&gt;
+  &lt;li&gt;Mở Chrome DevTools console và kiểm tra lỗi : click chuột chọn inspect element → sau đó chọn mục console hoặc dễ hơn bạn nhấn tổ hợp phím Ctrl + Shift + i (Windows) / Cmd + Opt + i (Mac)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://viblo.asia/uploads/85e6e478-4382-489d-a935-a038adac51db.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hình ảnh Chrome console với một số errors của AMP page
+&lt;img src=&quot;https://viblo.asia/uploads/7483ebbc-f5b1-4c85-b718-b1f41ec97a7c.png&quot; alt=&quot;&quot; /&gt;
+Hình ảnh Chrome console trên một trang AMP hợp lệ&lt;/p&gt;
+
+&lt;h1 id=&quot;5-kết-luận&quot;&gt;5. Kết luận&lt;/h1&gt;
+
+&lt;p&gt;AMP là một công nghệ mới được Google chính thức công bố gần đây. Đã cố rất nhiều website lớn đã áp dụng công nghệ này. Có thể nói hiệu quả marketing của nó mang lại là rất lớn.&lt;/p&gt;
+
+&lt;p&gt;Bài viết đã giới thiệu tổng quan về đặc điểm, lợi ích, cách áp dụng cũng như cách kiểm tra sự hợp lệ của một trang AMP. Mong rằng đây sẽ là một tài liệu hữu ích cho bạn khi bắt đầu tìm hiểu về AMP. Cảm ơn các bạn đã quan tâm tới bài viết của tôi. Hẹn gặp lại ở các bài viết tiếp theo.&lt;/p&gt;</content><summary type="html"></summary></entry><entry><title type="html">Để tìm được công việc tốt, đừng mải theo đuổi đam mê!</title><link href="http://localhost:4000/jekyll/update/2017/04/04/de-tim-duoc-cong-viec-tot-dung-mai-theo-duoi-dam-me.html" rel="alternate" type="text/html" title="Để tìm được công việc tốt, đừng mải theo đuổi đam mê!" /><published>2017-04-04T00:00:00+07:00</published><updated>2017-04-04T00:00:00+07:00</updated><id>http://localhost:4000/jekyll/update/2017/04/04/de-tim-duoc-cong-viec-tot-dung-mai-theo-duoi-dam-me</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/04/04/de-tim-duoc-cong-viec-tot-dung-mai-theo-duoi-dam-me.html">&lt;p&gt;&lt;img src=&quot;http://cafebiz.cafebizcdn.vn/thumb_w/600/2017/job-interview-gettyimages-576936242-57c485cf5f9b5855e5c9e58b-1486385089202-1490279938437-1491190102008-40-0-374-650-crop-1491190124440-1491191202481-1491215842323.jpg&quot; alt=&quot;Để tìm được công việc tốt, đừng mải theo đuổi đam mê!&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Đam mê sẽ không phải là một vị thần, kéo đến và sừng sững ngồi yên một chỗ chờ bạn tưới tắm, chăm bón, phát huy. Mà bạn phải sống, phải làm việc, phải thử cái này, phải cố cái kia, phải thất bại thật nhiều thì mới dần tìm ra được.&lt;/p&gt;
