@@ -4,7 +4,7 @@ title:  "Giới thiệu về framework mã nguồn mở Apache Hadoop"
 date:   2017-04-28 14:02:57 +0700
 categories: jekyll update
 ---
-> Giới thiệu về framework mã nguồn mở Apache Hadoop
+> Giới thiệu về framework mã nguồn mở Apache t
 
 # I. Giới thiệu Framework Hadoop
 Hadoop là gì?
