@@ -4,7 +4,7 @@ title:  "[Cùng Học Angular 2] Căn Bản Về RxJS Trong Angular 2"
 date:   2017-05-18
 categories: jekyll update
 ---
-![Webpack cho người mới bắt đầu](https://www.api2cart.com/wp-content/uploads/2015/04/rest-api.png)
+![Webpack cho người mới bắt đầu](https://raw.githubusercontent.com/Reactive-Extensions/RxJS/master/logos/logo.png)
 >[Cùng Học Angular 2] Căn Bản Về RxJS Trong Angular 2
 
 Angular 2 ra mắt kèm theo rất nhiều tính năng khá hữu ích, và một trong số đó là sự xuất hiện của RxJS. Vậy bài này chúng ta sẽ cùng tìm hiểu căn bản về RxJS để bắt đầu với Angular 2, tức là mình sẽ chỉ giới thiệu sơ lược về RxJS đủ để các bạn làm quen và code được Angular 2 ở mức căn bản.
