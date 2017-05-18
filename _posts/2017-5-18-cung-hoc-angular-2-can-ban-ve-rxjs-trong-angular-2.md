@@ -9,17 +9,17 @@ categories: jekyll update
 
 Angular 2 ra mắt kèm theo rất nhiều tính năng khá hữu ích, và một trong số đó là sự xuất hiện của RxJS. Vậy bài này chúng ta sẽ cùng tìm hiểu căn bản về RxJS để bắt đầu với Angular 2, tức là mình sẽ chỉ giới thiệu sơ lược về RxJS đủ để các bạn làm quen và code được Angular 2 ở mức căn bản.
 
-Đầu tiên, RxJS là viết tắt của Reactive Extensions Library for JavaScript và là phiên bản thứ 5. Các bạn có thể xem chi tiết hơn tại ![repo](https://github.com/ReactiveX/rxjs) chính thức của project này. Reactive Extensions không chỉ hỗ trợ cho Javascript mà cho rất nhiều ngôn ngữ khác như Java hay C#, nhưng Angular 2 sử dụng RxJS, vì thế trong phạm vi bài này chúng ta sẽ chỉ tìm hiểu về Reactive Extensions Library for JavaScript mà thôi.
+Đầu tiên, RxJS là viết tắt của Reactive Extensions Library for JavaScript và là phiên bản thứ 5. Các bạn có thể xem chi tiết hơn tại [repo](https://github.com/ReactiveX/rxjs) chính thức của project này. Reactive Extensions không chỉ hỗ trợ cho Javascript mà cho rất nhiều ngôn ngữ khác như Java hay C#, nhưng Angular 2 sử dụng RxJS, vì thế trong phạm vi bài này chúng ta sẽ chỉ tìm hiểu về Reactive Extensions Library for JavaScript mà thôi.
 
 RxJS đơn giản là một thư viện xử lý bất đồng bộ (asynchronous data streams) hay nói đúng hơn là nó không hề xa lạ, hầu hết các sự kiện mà bạn làm việc cùng đều là một “luồng” các sự kiện khác nhau và RxJS sẽ giúp bạn tạo được các luồng sự kiện này từ “mọi thứ” (ít nhất là đối với javascript).
 
-Để giải thích rõ hơn về RxJS thì cần rất nhiều giấy mực nhưng có một bài viết rất hay tại ![đây](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754) mà các bạn rất nên đọc, việc dịch thuật sang tiếng Việt khá là khó khăn nên mình sẽ không nói trong phạm vi bài viết này.
+Để giải thích rõ hơn về RxJS thì cần rất nhiều giấy mực nhưng có một bài viết rất hay tại [đây](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754) mà các bạn rất nên đọc, việc dịch thuật sang tiếng Việt khá là khó khăn nên mình sẽ không nói trong phạm vi bài viết này.
 
 Còn nếu các bạn muốn hiểu một cách đơn giản nhất thì Rx có nghĩa là tạo một cái “ống nước” chứa dữ liệu, sự kiện mà bạn có thể nắm bắt và điều khiển được cách mà cái ống nước này chạy. Và nhân nói về việc này thì nó bao gồm 2 giai đoạn, thứ nhất là tạo ra cái ống nước và thứ hai mở cho ống nước này chạy tức là sẽ không có chuyện gì xảy ra nếu ống nước này không được mở, các bạn sẽ thấy điều này rõ hơn khi mình demo. RxJS cung cấp một bộ các công cụ cực kì đầy đủ để các bạn làm được việc này.
 
 Lý thuyết thế đủ rồi, bây giờ là lúc cho thực hành!
 
-Cách để học RxJS đơn giản nhất là các bạn vào ![jsbin](http://jsbin.com/) và chọn “Add library” tìm đến mục RxJS và chọn bản mới nhất (tức là 5.x), việc này sẽ tạo một biến toàn cục Rx.
+Cách để học RxJS đơn giản nhất là các bạn vào [jsbin](http://jsbin.com/) và chọn “Add library” tìm đến mục RxJS và chọn bản mới nhất (tức là 5.x), việc này sẽ tạo một biến toàn cục Rx.
 
 Một note nhỏ là code trong bài viết này được viết bằng ES6 nên nếu bạn cảm thấy syntax lạ thì hãy học một chút về ES6 trước, thực sự là nó cực kì quan trọng nếu bạn muốn code được Angular 2.
 
@@ -102,6 +102,6 @@ const inputEvent = Rx.Observable
  ```
  Đây là một đoạn code khác phức tạp với sự kết hợp của khá nhiều operator, nhưng bạn có thể hiểu như thế này: tạo observable từ một event keyup của input, sau đó lấy về giá trị của input, chỉ kích hoạt khi giá trị này thay đổi và cuối cùng là chỉ kích hoạt mỗi 0.3s. Đây là một đoạn code cơ bản cho search box.
 
- Đơn giản vậy thôi, bạn chỉ cần vào ![trang chủ](http://reactivex.io/rxjs/) và tìm những operators hoặc effects mà mình cần, lắp nối chúng lại với nhau. Muốn quen được RxJS thì chỉ cần làm nhiều và bạn sẽ thấy có những operators phù hợp với công việc này hơn là những operator khác. Nhưng cũng nên lưu ý là có hàng trăm cách khác nhau để làm cùng một việc với RxJS, và cách nào là do cách mà bạn lắp ghép mà thôi, RxJS như một bộ đồ chơi lego mà bạn có thể thỏa sức sáng tạo.
+ Đơn giản vậy thôi, bạn chỉ cần vào [trang chủ](http://reactivex.io/rxjs/) và tìm những operators hoặc effects mà mình cần, lắp nối chúng lại với nhau. Muốn quen được RxJS thì chỉ cần làm nhiều và bạn sẽ thấy có những operators phù hợp với công việc này hơn là những operator khác. Nhưng cũng nên lưu ý là có hàng trăm cách khác nhau để làm cùng một việc với RxJS, và cách nào là do cách mà bạn lắp ghép mà thôi, RxJS như một bộ đồ chơi lego mà bạn có thể thỏa sức sáng tạo.
 
-Bài viết ở trên chỉ bao gồm những operator căn bản nhất để làm việc với DOM, còn về phần Ajax thì mình sẽ đề cập tới khi viết một bài về app Angular 2 nhỏ. Cuối cùng, bạn cũng có thể học thêm về những operator nâng cao ở trang ![này](https://www.learnrxjs.io/). Sử dụng JSbin, thêm thư viện RxJS và bắt tay vào học thôi.
+Bài viết ở trên chỉ bao gồm những operator căn bản nhất để làm việc với DOM, còn về phần Ajax thì mình sẽ đề cập tới khi viết một bài về app Angular 2 nhỏ. Cuối cùng, bạn cũng có thể học thêm về những operator nâng cao ở trang [này](https://www.learnrxjs.io/). Sử dụng JSbin, thêm thư viện RxJS và bắt tay vào học thôi.
