@@ -5,7 +5,9 @@ date:   2017-05-20
 categories: jekyll update
 ---
 ![Don’t make me think](https://viblo.asia/uploads/a8333146-6c7d-4ef7-8807-ef6d24547131.jpg)
+
 >Mở đầu với Gulp
+
 Gulp là một tool viết bằng Javascript, được sử dụng để tự động hoá các tác vụ giúp các bạn có thể tiết kiệm rất nhiều thời gian trong quá trình làm việc. Dù bạn có là một developer hay là một designer (người sẽ phải làm quen với HTML wireframes hiện tại hoặc sau này), tôi cũng khuyến khích hãy thử sử dụng Gulp.
 Trong nội dung bài viết này, tôi sẽ đề cập đến những thao tác cơ bản với Gulp - từ cài đặt tới các ví dụ - để các bạn có thể ngay lập tức sử dụng sau khi đọc xong.
 # Cài đặt Gulp
@@ -98,6 +100,7 @@ Có nhiều trường hợp chúng ta phải xem xét việc xử lý nhiều ta
 
 - Nếu những tasks đó có liên quan đến nhau, hãy sử dụng pipe để chain chúng lại.
 - Nếu những tasks đó không liên quan đến nhau, hãy tham khảo ví dụ sau về việc gọi nhiều tasks trong một lần:
+
 ```bash
 var gulp = require('gulp');
 var uglify = require('gulp-uglify');
