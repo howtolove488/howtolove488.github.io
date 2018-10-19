@@ -19,44 +19,63 @@ Trong vài tháng qua, tôi đã thu thập các cheat sheets về AI. Thỉnh t
 
 Neural Networks
 ![Neural Networks](https://images.viblo.asia/0d4f38c5-897a-4c9a-b5b6-437da0547ed0.png)
+
 Neural Networks Graphs
-(https://images.viblo.asia/317bed47-3524-49df-b819-4fe4f7e398ee.png)
+![Neural Networks Graphs](https://images.viblo.asia/317bed47-3524-49df-b819-4fe4f7e398ee.png)
+
 Machine Learning Overview
-(https://images.viblo.asia/46ef6269-4cc1-470e-8b10-1495fc1d5f4b.png)
+![Machine Learning Overview](https://images.viblo.asia/46ef6269-4cc1-470e-8b10-1495fc1d5f4b.png)
+
 Machine Learning: Scikit-learn algorithm
 Machine learning cheat sheet sẽ giúp bạn tìm được bộ ước lượng phù hợp cho công việc đó là phần khó nhất. Sơ đồ này sẽ giúp bạn kiểm tra tài liệu và hướng dẫn sơ bộ của từng người ước tính sẽ giúp bạn biết thêm về các vấn đề và cách giải quyết nó. 
-(https://images.viblo.asia/2b999edc-edd6-414b-a694-189f732fe4cf.png)
+![Machine Learning: Scikit-learn algorithm](https://images.viblo.asia/2b999edc-edd6-414b-a694-189f732fe4cf.png)
+
 Scikit-Learn
 Scikit-Learn là một thư viện học máy miễn phí cho Python. Nó có các thuật toán phân loại (classification), hồi quy (regression) và phân cụm (clustering ) bao gồm support vector machines, random forests, gradient boosting, k-means và DBSCAN, và được thiết kế để tương thích với các thư viện của Python như NumPy và SciPy.
-(https://images.viblo.asia/88d7bef8-29f4-45ba-bd1a-1c64da926eb6.png)
+![Scikit-Learn](https://images.viblo.asia/88d7bef8-29f4-45ba-bd1a-1c64da926eb6.png)
+
 Machine Learning : Algorithm Cheat Sheet
 Cheat sheet học máy này từ Microsoft Azure sẽ giúp bạn chọn các thuật toán học máy thích hợp cho giải pháp phân tích dự đoán của bạn. Đầu tiên, cheat sheet sẽ hỏi bạn về bản chất dữ liệu và sau đó đề xuất thuật toán tốt nhất cho công việc. 
-(https://images.viblo.asia/2543d8fc-04ea-4f37-927e-13d36a3aa5ee.png)
+![Machine Learning : Algorithm Cheat Sheet](https://images.viblo.asia/2543d8fc-04ea-4f37-927e-13d36a3aa5ee.png)
+
 Python for Data Science
-(https://images.viblo.asia/08927ee0-308d-4ff0-817c-01fc216b56f6.png)
+![Python for Data Science](https://images.viblo.asia/08927ee0-308d-4ff0-817c-01fc216b56f6.png)
+
+
 TensorFlow
-(https://images.viblo.asia/e3614442-f173-4462-ae71-4ff9b774c510.png)
+![TensorFlow](https://images.viblo.asia/e3614442-f173-4462-ae71-4ff9b774c510.png)
+
 Keras
 Vào năm 2017, nhóm TensorFlow của Google đã quyết định hỗ trợ Keras trong thư viện cốt lõi của TensorFlow. Chollet giải thích rằng Keras đã được hình thành là một giao diện chứ không phải là một framework end-to-end-machine-learning. Nó trình bày higher-level, tập hợp trừu tượng trực quan hơn, giúp dễ dàng cấu hình các neural networks bất kể thư viện máy tính khoa học phụ trợ (backend scientific computing library). 
-(https://images.viblo.asia/4ef36454-08a8-4245-95bf-f26229fdca9f.jpeg)
+![Keras](https://images.viblo.asia/4ef36454-08a8-4245-95bf-f26229fdca9f.jpeg)
+
 Numpy
-(https://images.viblo.asia/8d7e534f-59fb-4271-853e-2a2c304ee324.png)
+![Numpy](https://images.viblo.asia/8d7e534f-59fb-4271-853e-2a2c304ee324.png)
+
 Pandas
-(https://images.viblo.asia/2ab41c14-0f3b-41de-89d7-bc94466fc284.png)
+![Pandas](https://images.viblo.asia/2ab41c14-0f3b-41de-89d7-bc94466fc284.png)
+
 Data Wrangling
-(https://images.viblo.asia/8a7fa8ee-088e-4751-8b4a-3d54547c27d4.jpeg)
+![Data Wrangling](https://images.viblo.asia/8a7fa8ee-088e-4751-8b4a-3d54547c27d4.jpeg)
+
 Data Wrangling with dplyr and tidyr
-(https://images.viblo.asia/9adedf45-6ac3-4f80-b5d8-a822d32beb02.jpeg)
+![Data Wrangling with dplyr and tidyr](https://images.viblo.asia/9adedf45-6ac3-4f80-b5d8-a822d32beb02.jpeg)
+
 Scipy
-(https://images.viblo.asia/6c0239e2-666f-4e21-af4d-1817bc53a572.png)
+![Scipy](https://images.viblo.asia/6c0239e2-666f-4e21-af4d-1817bc53a572.png)
+
 Matplotlib
-(https://images.viblo.asia/c7213e95-4867-4f60-b908-93ac3546dc5a.png)
+![Matplotlib](https://images.viblo.asia/c7213e95-4867-4f60-b908-93ac3546dc5a.png)
+
 Data Visualization
-(https://images.viblo.asia/98f693ef-d600-45cd-9e3f-cc360495b060.jpeg)
+![Data Visualization](https://images.viblo.asia/98f693ef-d600-45cd-9e3f-cc360495b060.jpeg)
+
 PySpark
-(https://images.viblo.asia/0f16d023-f443-4e63-97fa-0f4c3ebdb6ce.jpeg)
+![PySpark](https://images.viblo.asia/0f16d023-f443-4e63-97fa-0f4c3ebdb6ce.jpeg)
+
 Big-O
-(https://images.viblo.asia/b05ab43c-56f7-4548-b016-d9f5ee005cd6.png)
+![Big-O](https://images.viblo.asia/b05ab43c-56f7-4548-b016-d9f5ee005cd6.png)
+
 Resources
 Big-O Algorithm Cheat Sheet: http://bigocheatsheet.com/
 
